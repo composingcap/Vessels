@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 110.0, 164.0, 516.0, 229.0 ],
+		"rect" : [ 110.0, 164.0, 464.0, 254.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,242 @@
 		"subpatcher_template" : "minimal",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 986.636326313018799, 311.0, 87.0, 23.0 ],
+					"presentation_linecount" : 2,
+					"text" : "loading spells..."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 986.636326313018799, 350.636386752128601, 33.0, 23.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 897.636326313018799, 646.363613247871399, 94.0, 23.0 ],
+					"text" : "loaded all spells!"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 897.636326313018799, 686.0, 33.0, 23.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 883.0, 621.545452952384949, 36.0, 23.0 ],
+					"text" : "defer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 883.0, 325.0, 55.0, 23.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 897.636326313018799, 282.5, 56.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 672.0, 454.0, 95.0, 23.0 ],
+					"text" : "r LOADSPELL37"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.0, 493.0, 95.0, 23.0 ],
+					"text" : "r LOADSPELL76"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 252.0, 115.0, 95.0, 23.0 ],
+					"text" : "r LOADSPELL14"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 955.0, 590.545452952384949, 96.0, 23.0 ],
+					"text" : "s LOADSPELL37"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 963.636326313018799, 507.0, 96.0, 23.0 ],
+					"text" : "s LOADSPELL76"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 955.0, 408.0, 96.0, 23.0 ],
+					"text" : "s LOADSPELL14"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 883.0, 554.545452952384949, 36.0, 23.0 ],
+					"text" : "defer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 883.0, 502.0, 36.0, 23.0 ],
+					"text" : "defer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 870.0, 372.0, 53.0, 23.0 ],
+					"text" : "delay 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 871.0, 408.0, 36.0, 23.0 ],
+					"text" : "defer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.0, 152.0, 118.0, 23.0 ],
+					"text" : "patchername spell14"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 619.0, 514.0, 138.0, 23.0 ],
+					"text" : "patchername Spell37-25"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 199.0, 537.0, 120.0, 23.0 ],
+					"text" : "patchername Spell76"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -443,7 +679,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-71",
-									"items" : "Wireless Controller",
+									"items" : [ "Apple Mikey HID Driver", ",", "G635 Gaming Headset", ",", "Gaming KB ", ",", "Advanced Corded Mouse M500s", ",", "Advanced Corded Mouse M500s 2", ",", "Gaming KB  2" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -744,9 +980,6 @@
 						"styles" : [ 							{
 								"name" : "Minimal",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
@@ -760,10 +993,13 @@
 									}
 ,
 									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"fontname" : [ "Futura Medium" ]
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -772,9 +1008,6 @@
 , 							{
 								"name" : "Minimal-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
@@ -788,10 +1021,13 @@
 									}
 ,
 									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"fontname" : [ "Lato" ]
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1694,9 +1930,6 @@
 										"styles" : [ 											{
 												"name" : "Minimal",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
@@ -1710,10 +1943,13 @@
 													}
 ,
 													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"fontname" : [ "Futura Medium" ]
+													"fontface" : [ 0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1722,9 +1958,6 @@
 , 											{
 												"name" : "Minimal-1",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
@@ -1738,10 +1971,13 @@
 													}
 ,
 													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"fontname" : [ "Lato" ]
+													"fontface" : [ 0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1844,9 +2080,6 @@
 						"styles" : [ 							{
 								"name" : "Minimal",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
@@ -1860,10 +2093,13 @@
 									}
 ,
 									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"fontname" : [ "Futura Medium" ]
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1872,9 +2108,6 @@
 , 							{
 								"name" : "Minimal-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
@@ -1888,10 +2121,13 @@
 									}
 ,
 									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"fontname" : [ "Lato" ]
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2043,8 +2279,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 452.0, 537.0, 104.0, 23.0 ],
-					"text" : "poly~ Spell37-25",
+					"patching_rect" : [ 452.0, 537.0, 80.0, 23.0 ],
+					"text" : "poly~ dummy",
 					"varname" : "poly~[1]"
 				}
 
@@ -2092,8 +2328,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 89.818180859088898, 554.545452952384949, 86.0, 23.0 ],
-					"text" : "poly~ Spell76",
+					"patching_rect" : [ 89.818180859088898, 554.545452952384949, 80.0, 23.0 ],
+					"text" : "poly~ dummy",
 					"varname" : "Spell37"
 				}
 
@@ -2117,8 +2353,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 118.0, 177.0, 85.0, 23.0 ],
-					"text" : "poly~ spell14",
+					"patching_rect" : [ 118.0, 177.0, 80.0, 23.0 ],
+					"text" : "poly~ dummy",
 					"varname" : "poly~"
 				}
 
@@ -2168,7 +2404,6 @@
 						"style" : "Minimal",
 						"subpatcher_template" : "minimal",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-41",
@@ -2704,9 +2939,9 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 169.0, 38.0, 281.0, 31.0 ],
+													"patching_rect" : [ 169.0, 38.0, 281.0, 32.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 11.340426445007324, 2.0, 91.0, 31.0 ],
+													"presentation_rect" : [ 11.340426445007324, 2.0, 91.0, 32.0 ],
 													"text" : "Output"
 												}
 
@@ -3145,9 +3380,6 @@
 										"styles" : [ 											{
 												"name" : "Minimal",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
@@ -3161,10 +3393,13 @@
 													}
 ,
 													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"fontname" : [ "Futura Medium" ]
+													"fontface" : [ 0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3944,9 +4179,6 @@
 , 							{
 								"name" : "Minimal",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
@@ -3960,10 +4192,13 @@
 									}
 ,
 									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"fontname" : [ "Futura Medium" ]
+									"fontface" : [ 0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4025,8 +4260,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-195", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -4056,6 +4305,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -4119,6 +4375,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"order" : 1,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -4128,6 +4407,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -4275,8 +4561,47 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 1,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"order" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"order" : 0,
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -4346,6 +4671,57 @@
 					"destination" : [ "obj-55", 0 ],
 					"order" : 0,
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-74", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 0,
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}
@@ -4571,121 +4947,6 @@
 				"obj-1::obj-9::obj-5" : 				{
 					"parameter_longname" : "live.gain~[5]"
 				}
-,
-				"obj-53.1::obj-65::obj-1" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "dreamingBass",
-					"parameter_shortname" : "dreamingBass"
-				}
-,
-				"obj-53.1::obj-65::obj-11" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "DreamingSop",
-					"parameter_shortname" : "DreamingSop"
-				}
-,
-				"obj-53.1::obj-65::obj-14" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "VlaSparkle",
-					"parameter_shortname" : "VlaSparkle"
-				}
-,
-				"obj-53.1::obj-65::obj-15" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "dreamingFl",
-					"parameter_shortname" : "dreamingFl"
-				}
-,
-				"obj-53.1::obj-65::obj-17" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "dreamingCl",
-					"parameter_shortname" : "dreamingCl"
-				}
-,
-				"obj-53.1::obj-65::obj-19" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "DreamingVla",
-					"parameter_shortname" : "DreamingVla"
-				}
-,
-				"obj-53.1::obj-65::obj-2" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "BassRisset",
-					"parameter_shortname" : "BassRisset"
-				}
-,
-				"obj-53.1::obj-65::obj-26" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "clusterGliss",
-					"parameter_shortname" : "clusterGliss"
-				}
-,
-				"obj-53.1::obj-65::obj-27" : 				{
-					"parameter_invisible" : 0,
-					"parameter_linknames" : 1,
-					"parameter_longname" : "MutoWir",
-					"parameter_modmode" : 0,
-					"parameter_shortname" : "MutoWir",
-					"parameter_type" : 0,
-					"parameter_unitstyle" : 4
-				}
-,
-				"obj-53.1::obj-65::obj-28" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "MutoBg",
-					"parameter_shortname" : "MutoBg"
-				}
-,
-				"obj-53.1::obj-65::obj-29" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "MutoSop",
-					"parameter_shortname" : "MutoSop"
-				}
-,
-				"obj-53.1::obj-65::obj-3" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "tenorModes",
-					"parameter_shortname" : "tenorModes"
-				}
-,
-				"obj-53.1::obj-65::obj-30" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "MoogSplat",
-					"parameter_shortname" : "MoogSplat"
-				}
-,
-				"obj-53.1::obj-65::obj-31" : 				{
-					"parameter_longname" : "Sop&FluteSus",
-					"parameter_shortname" : "Sop&FluteSus"
-				}
-,
-				"obj-53.1::obj-65::obj-33" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "MutoTenor",
-					"parameter_shortname" : "MutoTenor"
-				}
-,
-				"obj-53.1::obj-65::obj-35" : 				{
-					"parameter_longname" : "Harmonizer",
-					"parameter_shortname" : "Harmonizer"
-				}
-,
-				"obj-53.1::obj-65::obj-4" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "DreamingMaster",
-					"parameter_shortname" : "DreamingMaster"
-				}
-,
-				"obj-53.1::obj-65::obj-5" : 				{
-					"parameter_linknames" : 1,
-					"parameter_longname" : "dreamingTen",
-					"parameter_shortname" : "dreamingTen"
-				}
-,
-				"obj-53.1::obj-65::obj-6" : 				{
-					"parameter_longname" : "MutoMaster",
-					"parameter_shortname" : "MutoMaster"
-				}
 
 			}
 ,
@@ -4694,510 +4955,490 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "v.inputconfig.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.inputchannelstrip.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bufferGen.compressor.gui.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bufferGen.compressor.generator.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bufferGen.compressor.dsp.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pfft.spectralGate.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pfft.sub.gate.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pfft.gate.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers/inputchannelStrip",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers/inputchannelStrip",
 				"patcherrelativepath" : "./inputchannelStrip",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan2S.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mcs.dac~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tinyMesh~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell14.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/Scenes/House of Hearts",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/Scenes/House of Hearts",
 				"patcherrelativepath" : "../Scenes/House of Hearts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell14Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.dreamingBass.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_grainflow.poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.voice.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.util.record~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.record.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.util.stereoPan~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.rissetArp.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.dreamingViola.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.multitap~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_cp.poly.multitap.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_cp.multitap.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.util.randomRangeList.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.dreamingTenor.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input2Modes.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.fft.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.getPeaks.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.getPeaks.genjit",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.bin2freq.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fftjit.reg.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.poly.modal.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.dreamingSoprano.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.dreamingWinds.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wobblyDistortion.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnld8~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnld-poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.clusterGliss.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.live~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.grainTextureFolloer.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.moogsplat.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.moogladderx2.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/other",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/other",
 				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.ampThresh.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/other",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/other",
 				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/other",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/other",
 				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/other",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/other",
 				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/other",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/other",
 				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mc.vdelay.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.util.grainRecord~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainflow.grainRecord.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ampTrigger.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.player_poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell14Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell76.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/Scenes/House of Hearts",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/Scenes/House of Hearts",
 				"patcherrelativepath" : "../Scenes/House of Hearts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMesh~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMeshGen.js",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/code",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMesh.spaceMixer.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell76Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.bubbler.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell76Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell37-25.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/Scenes/House of Hearts",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/Scenes/House of Hearts",
 				"patcherrelativepath" : "../Scenes/House of Hearts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell37Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell37-25Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/Scenes/House of Hearts/Cues",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/Scenes/House of Hearts/Cues",
 				"patcherrelativepath" : "../Scenes/House of Hearts/Cues",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.soundSmoke.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.poly.reverse.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+				"bootpath" : "~/Downloads/Vessles-Max-master/Vessles/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mira.frame.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "fluid.pitch~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "fluid.spectralshape~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "fluid.chroma~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "mira.status.mxe64",
-				"type" : "mx64"
+				"name" : "mira.status.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
@@ -5222,9 +5463,6 @@
 , 			{
 				"name" : "Minimal",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"bgfillcolor" : 					{
@@ -5238,9 +5476,12 @@
 					}
 ,
 					"fontsize" : [ 10.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Futura Medium" ],
 					"elementcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
-					"fontname" : [ "Futura Medium" ]
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -5249,9 +5490,6 @@
 , 			{
 				"name" : "Minimal-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"bgfillcolor" : 					{
@@ -5265,10 +5503,13 @@
 					}
 ,
 					"fontsize" : [ 12.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+					"fontname" : [ "Lato" ],
 					"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-					"fontname" : [ "Lato" ]
+					"fontface" : [ 0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
