@@ -2,7 +2,7 @@
 	"name" : "Vessles",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3714716295,
+	"modificationdate" : 3714723558,
 	"viewrect" : [ 914.0, 209.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -253,6 +253,176 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"Vessles-01.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-02.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-03.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-04.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-05.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-06.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-07.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-08.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-09.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-10.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-11.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-12.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-13.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-14.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-15.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-16.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"Vessles-17.svg" : 			{
+				"kind" : "vectorimagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
+					"projectrelativepath" : "./score"
+				}
+
+			}
 
 		}
 ,
@@ -265,6 +435,11 @@
 		}
 ,
 		"data" : 		{
+			"v.inputconfig.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"spell14Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -281,11 +456,6 @@
 			}
 ,
 			"spell37-25Cues.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"v.inputconfig.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
