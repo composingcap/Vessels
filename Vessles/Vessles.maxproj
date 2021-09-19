@@ -2,8 +2,8 @@
 	"name" : "Vessles",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3714723558,
-	"viewrect" : [ 914.0, 209.0, 300.0, 490.0 ],
+	"modificationdate" : 3714905542,
+	"viewrect" : [ 1520.0, 376.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -458,6 +458,16 @@
 			"spell37-25Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
+			}
+,
+			"globalSettings.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
+					"projectrelativepath" : "./presets"
+				}
+
 			}
 
 		}
