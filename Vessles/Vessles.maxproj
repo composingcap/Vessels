@@ -2,8 +2,8 @@
 	"name" : "Vessles",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3714905542,
-	"viewrect" : [ 1520.0, 376.0, 300.0, 490.0 ],
+	"modificationdate" : 3714985874,
+	"viewrect" : [ 1610.0, 576.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -111,6 +111,21 @@
 			}
 ,
 			"v.dreamingWinds.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"cnld4~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cnld2~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -462,12 +477,7 @@
 ,
 			"globalSettings.json" : 			{
 				"kind" : "json",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/presets",
-					"projectrelativepath" : "./presets"
-				}
-
+				"local" : 1
 			}
 
 		}
