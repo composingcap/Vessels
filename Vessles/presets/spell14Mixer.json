@@ -17,14 +17,14 @@
 					"MutoSop" : [ -3.39719133046512 ],
 					"MutoTenor" : [ 2.0 ],
 					"MutoWir" : [ -2.88659793814432 ],
-					"Sop&FluteSus" : [ 0.0 ],
-					"VlaSparkle" : [ -1.12073490813647 ],
+					"Sop&FluteSus" : [ -1.779527559055126 ],
+					"VlaSparkle" : [ 0.0 ],
 					"clusterGliss" : [ -0.325459317585285 ],
 					"dreamingBass" : [ -3.0 ],
 					"dreamingCl" : [ -9.0 ],
 					"dreamingFl" : [ -9.0 ],
 					"dreamingTen" : [ 0.0 ],
-					"tenorModes" : [ -1.337770922964538 ]
+					"tenorModes" : [ -3.0 ]
 				}
 
 			}
