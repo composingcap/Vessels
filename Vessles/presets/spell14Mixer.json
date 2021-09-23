@@ -5,26 +5,26 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"BassRisset" : [ -3.0 ],
+					"BassRisset" : [ 0.0 ],
 					"DreamingMaster" : [ 0.0 ],
-					"DreamingSop" : [ 0.0 ],
-					"DreamingVla" : [ 0.0 ],
+					"DreamingSop" : [ 3.0 ],
+					"DreamingVla" : [ -3.0 ],
 					"Fixed" : [ -1.735537190082653 ],
 					"Harmonizer" : [ 0.0 ],
 					"MoogSplat" : [ 0.0 ],
-					"MutoBg" : [ -2.164948453608247 ],
-					"MutoMaster" : [ 0.0 ],
-					"MutoSop" : [ -3.39719133046512 ],
-					"MutoTenor" : [ 2.0 ],
-					"MutoWir" : [ -2.88659793814432 ],
+					"MutoBg" : [ 0.0 ],
+					"MutoMaster" : [ -11.492537313432841 ],
+					"MutoSop" : [ 0.0 ],
+					"MutoTenor" : [ -3.0 ],
+					"MutoWir" : [ -9.0 ],
 					"Sop&FluteSus" : [ -1.779527559055126 ],
-					"VlaSparkle" : [ 0.0 ],
+					"VlaSparkle" : [ -12.0 ],
 					"clusterGliss" : [ -0.325459317585285 ],
-					"dreamingBass" : [ -3.0 ],
-					"dreamingCl" : [ -9.0 ],
-					"dreamingFl" : [ -9.0 ],
-					"dreamingTen" : [ 0.0 ],
-					"tenorModes" : [ -3.0 ]
+					"dreamingBass" : [ 0.0 ],
+					"dreamingCl" : [ 0.0 ],
+					"dreamingFl" : [ 0.0 ],
+					"dreamingTen" : [ -6.0 ],
+					"tenorModes" : [ -9.0 ]
 				}
 
 			}

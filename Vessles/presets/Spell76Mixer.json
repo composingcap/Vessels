@@ -5,13 +5,13 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Spell76Master" : [ -2.7482688334171 ],
+					"Spell76Master" : [ 0.0 ],
 					"bubbles" : [ 0.0 ],
 					"droplets" : [ 0.0 ],
-					"inkRiver" : [ 0.0 ],
+					"inkRiver" : [ -6.0 ],
 					"modalShimmer" : [ 0.0 ],
-					"sustain" : [ -1.39085964769869 ],
-					"waterMesh" : [ 0.0 ]
+					"sustain" : [ 0.0 ],
+					"waterMesh" : [ -6.0 ]
 				}
 
 			}
