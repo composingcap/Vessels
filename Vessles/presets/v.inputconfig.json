@@ -43,10 +43,13 @@
 					"bass::inputChan" : [ 6 ],
 					"bpatcher::DryLevel" : [ 0.0 ],
 					"bpatcher::Electronics" : [ 0.0 ],
-					"bpatcher::dryRev" : [ 0.0 ],
+					"bpatcher::dryRev" : [ 0.5 ],
 					"bpatcher::electRev" : [ 0.0 ],
 					"bpatcher::outputLevel" : [ 0.0 ],
-					"bpatcher::reverbLevel" : [ 0.0 ]
+					"bpatcher::reverbLevel" : [ 0.0 ],
+					"bpatcher::outmode" : [ 0 ],
+					"bpatcher::reflect" : [ 0.350393700787402 ],
+					"bpatcher::size" : [ 50.0 ]
 				}
 
 			}
