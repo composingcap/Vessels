@@ -2,7 +2,7 @@
 	"name" : "Vessles",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3714985874,
+	"modificationdate" : 3715404809,
 	"viewrect" : [ 1610.0, 576.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -122,7 +122,12 @@
 ,
 			"cnld4~.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"cnld2~.maxpat" : 			{
@@ -147,31 +152,6 @@
 			}
 ,
 			"cp.inputchannelstrip.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"bufferGen.compressor.gui.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"bufferGen.compressor.generator.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"bufferGen.compressor.dsp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pfft.spectralGate.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"pfft.sub.gate.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -207,6 +187,31 @@
 			}
 ,
 			"v.poly.reverse.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bufferGen.compressor.gui.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bufferGen.compressor.generator.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bufferGen.compressor.dsp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pfft.spectralGate.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"pfft.sub.gate.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -435,6 +440,16 @@
 				"singleton" : 				{
 					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/score",
 					"projectrelativepath" : "./score"
+				}
+
+			}
+,
+			"pen.aiff" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessles Max/Vessles/media",
+					"projectrelativepath" : "./media"
 				}
 
 			}

@@ -41,7 +41,7 @@
 					"bass::dryPan" : [ 0.8 ],
 					"bass::live.gain~" : [ 0.0 ],
 					"bass::inputChan" : [ 6 ],
-					"bpatcher::DryLevel" : [ -0.58267716535434 ],
+					"bpatcher::DryLevel" : [ 0.0 ],
 					"bpatcher::Electronics" : [ 0.0 ],
 					"bpatcher::dryRev" : [ 0.0 ],
 					"bpatcher::electRev" : [ 0.0 ],
