@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 379.0, 281.0, 1367.0, 915.0 ],
+		"rect" : [ 379.0, 272.0, 1367.0, 924.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -209,12 +209,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -225,8 +219,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -237,12 +237,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -253,8 +247,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -646,12 +646,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -662,8 +656,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -674,12 +674,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -690,8 +684,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -1482,12 +1482,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1498,8 +1492,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -1510,12 +1510,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1526,8 +1520,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -1563,7 +1563,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 588.0, 754.0 ],
 									"rendermode" : 0,
-									"url" : "file:///D:/Git/Vessles/Vessles%20Max/Vessels%20VR/score/Vessels-1.svg"
+									"url" : "file:///D:/Git/Vessles/Vessels-Max/Vessels%20VR/score/Vessels-1.svg"
 								}
 
 							}
@@ -1887,12 +1887,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1903,8 +1897,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -1915,12 +1915,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1931,8 +1925,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -2560,12 +2560,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -2576,8 +2570,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -2588,12 +2588,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -2604,8 +2598,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -3360,12 +3360,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -3376,8 +3370,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -3388,12 +3388,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -3404,8 +3398,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -4286,12 +4286,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4302,8 +4296,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -4314,12 +4314,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4330,8 +4324,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -4644,12 +4644,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4660,8 +4654,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -4672,12 +4672,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4688,8 +4682,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -4824,12 +4824,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4840,8 +4834,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -4852,12 +4852,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -4868,8 +4862,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -5108,7 +5108,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1574.0, 206.0, 1073.0, 970.0 ],
+						"rect" : [ 2127.0, 379.0, 1073.0, 970.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -5136,7 +5136,152 @@
 						"style" : "Minimal",
 						"subpatcher_template" : "minimal",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 828.0, 245.0, 99.0, 21.0 ],
+									"text" : "join 3 @triggers 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 868.0, 210.0, 40.0, 21.0 ],
+									"text" : "unjoin"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 901.0, 93.0, 60.0, 21.0 ],
+									"text" : "prepend 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 901.0, 47.0, 80.0, 21.0 ],
+									"text" : "v violaPosition"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 795.0, 93.0, 60.0, 21.0 ],
+									"text" : "prepend 4"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 774.0, 63.5, 97.0, 21.0 ],
+									"text" : "v sopranoPosition"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 795.0, 140.0, 60.0, 21.0 ],
+									"text" : "prepend 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 688.0, 59.5, 79.0, 21.0 ],
+									"text" : "v flutePosition"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1328.0, 87.0, 37.0, 21.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1284.0, 51.0, 114.0, 21.0 ],
+									"text" : "qmetro 33 @active 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 519.0, 183.0, 39.0, 21.0 ],
+									"text" : "loop 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "multichannelsignal" ],
+									"patching_rect" : [ 319.0, 238.0, 61.0, 21.0 ],
+									"text" : "mc.*~ 0.5"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-156",
 									"maxclass" : "message",
@@ -5475,7 +5620,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1010.0, 480.0, 92.0, 21.0 ],
+									"patching_rect" : [ 999.0, 474.0, 92.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"mode" : "rotate",
 										"rotate_order" : 5,
@@ -5521,7 +5666,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1239.0, 265.0, 50.0, 21.0 ]
+									"patching_rect" : [ 1253.0, 234.0, 50.0, 21.0 ]
 								}
 
 							}
@@ -5544,7 +5689,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1239.0, 374.0, 107.0, 21.0 ],
+									"patching_rect" : [ 1239.0, 389.5, 107.0, 21.0 ],
 									"text" : "prepend translation"
 								}
 
@@ -5704,7 +5849,6 @@
 										"style" : "Minimal-1",
 										"subpatcher_template" : "minimal",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -5860,12 +6004,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -5876,8 +6014,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -5888,12 +6032,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -5904,8 +6042,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -5947,7 +6091,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.0, 313.0, 150.0, 31.0 ],
+									"patching_rect" : [ 315.0, 313.0, 151.0, 31.0 ],
 									"text" : "Use this for point tanslation in binaural version"
 								}
 
@@ -5959,7 +6103,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1003.0, 506.0, 106.0, 21.0 ],
+									"patching_rect" : [ 985.0, 530.0, 106.0, 21.0 ],
 									"saved_object_attributes" : 									{
 										"mode" : "translate",
 										"rotate_order" : 5,
@@ -6179,12 +6323,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -6195,8 +6333,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -6207,12 +6351,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -6223,8 +6361,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -6654,12 +6798,6 @@
 												"name" : "Minimal",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 10.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Futura Medium" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -6670,8 +6808,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 10.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+													"fontname" : [ "Futura Medium" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -6682,12 +6826,6 @@
 												"name" : "Minimal-1",
 												"default" : 												{
 													"fontface" : [ 0 ],
-													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontsize" : [ 12.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Lato" ],
 													"bgfillcolor" : 													{
 														"type" : "color",
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -6698,8 +6836,14 @@
 														"autogradient" : 0.0
 													}
 ,
+													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+													"fontname" : [ "Lato" ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 												}
 ,
@@ -6850,13 +6994,20 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 574.0, 655.0, 84.0, 21.0 ],
+									"patching_rect" : [ 571.5, 655.0, 84.0, 21.0 ],
 									"text" : "mcs.dac~ 36 2"
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-142", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"order" : 1,
@@ -6988,6 +7139,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-146", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-129", 0 ],
 									"source" : [ "obj-130", 0 ]
 								}
@@ -7032,6 +7190,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"source" : [ "obj-136", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"source" : [ "obj-14", 0 ]
 								}
 
 							}
@@ -7137,8 +7302,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-19", 0 ]
 								}
 
 							}
@@ -7151,7 +7337,49 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-142", 0 ],
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 2 ],
+									"source" : [ "obj-25", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 0 ],
+									"source" : [ "obj-25", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-26", 1 ],
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"source" : [ "obj-26", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
 									"order" : 1,
 									"source" : [ "obj-43", 0 ]
 								}
@@ -7183,15 +7411,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-121", 0 ],
-									"source" : [ "obj-51", 0 ]
+									"destination" : [ "obj-43", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-73", 0 ],
-									"source" : [ "obj-57", 0 ]
+									"destination" : [ "obj-121", 0 ],
+									"source" : [ "obj-51", 0 ]
 								}
 
 							}
@@ -7206,6 +7434,38 @@
 								"patchline" : 								{
 									"destination" : [ "obj-57", 0 ],
 									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"order" : 0,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"order" : 3,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"order" : 2,
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"order" : 1,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -7297,12 +7557,6 @@
 								"name" : "Minimal",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 10.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Futura Medium" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -7313,8 +7567,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 10.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
+									"fontname" : [ "Futura Medium" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -7325,12 +7585,6 @@
 								"name" : "Minimal-1",
 								"default" : 								{
 									"fontface" : [ 0 ],
-									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Lato" ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -7341,8 +7595,14 @@
 										"autogradient" : 0.0
 									}
 ,
+									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+									"fontname" : [ "Lato" ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 								}
 ,
@@ -7626,13 +7886,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-195", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"order" : 0,
 					"source" : [ "obj-50", 0 ]
@@ -7679,13 +7932,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-103", 0 ],
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -7760,13 +8006,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -7805,50 +8044,14 @@
 			"obj-105::obj-78" : [ "slider", "slider", 0 ],
 			"obj-115" : [ "button", "button", 0 ],
 			"obj-122" : [ "button[1]", "button[1]", 0 ],
-			"obj-14.1::obj-2::obj-16" : [ "tenorBassBoost", "tenorBassBoost", 0 ],
-			"obj-14.1::obj-2::obj-23" : [ "varaspeed", "varaspeed", 0 ],
-			"obj-14.1::obj-2::obj-24" : [ "clRev", "clRev", 0 ],
-			"obj-14.1::obj-2::obj-26" : [ "Spell 37", "Spell 37", 0 ],
-			"obj-14.1::obj-2::obj-27" : [ "percGrains", "percGrains", 0 ],
-			"obj-14.1::obj-2::obj-29" : [ "Spell 25", "Spell 25", 0 ],
-			"obj-14.1::obj-2::obj-4" : [ "repeater", "repeater", 0 ],
-			"obj-14.1::obj-2::obj-5" : [ "bassGrains", "bassGrains", 0 ],
-			"obj-14.1::obj-2::obj-6" : [ "tenorGramaphone", "tenorGramaphone", 0 ],
-			"obj-14.1::obj-2::obj-8" : [ "bassSoundSmoke", "bassSoundSmoke", 0 ],
 			"obj-16::obj-2::obj-11" : [ "sustain[1]", "sustain", 0 ],
 			"obj-16::obj-2::obj-14" : [ "modalShimmer[1]", "modalShimmer", 0 ],
 			"obj-16::obj-2::obj-2" : [ "waterMesh[1]", "waterMesh", 0 ],
 			"obj-16::obj-2::obj-3" : [ "inkRiver[1]", "inkRiver", 0 ],
 			"obj-16::obj-2::obj-5" : [ "droplets[1]", "droplets", 0 ],
 			"obj-16::obj-2::obj-6" : [ "bubbles[1]", "bubbles", 0 ],
-			"obj-195.1::obj-2::obj-11" : [ "sustain", "sustain", 0 ],
-			"obj-195.1::obj-2::obj-14" : [ "modalShimmer", "modalShimmer", 0 ],
-			"obj-195.1::obj-2::obj-2" : [ "waterMesh", "waterMesh", 0 ],
-			"obj-195.1::obj-2::obj-3" : [ "inkRiver", "inkRiver", 0 ],
-			"obj-195.1::obj-2::obj-5" : [ "droplets", "droplets", 0 ],
-			"obj-195.1::obj-2::obj-6" : [ "bubbles", "bubbles", 0 ],
 			"obj-1::obj-82" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
 			"obj-41" : [ "number", "number", 0 ],
-			"obj-53.1::obj-65::obj-1" : [ "dreamingBass", "dreamingBass", 0 ],
-			"obj-53.1::obj-65::obj-11" : [ "DreamingSop", "DreamingSop", 0 ],
-			"obj-53.1::obj-65::obj-14" : [ "VlaSparkle", "VlaSparkle", 0 ],
-			"obj-53.1::obj-65::obj-15" : [ "dreamingFl", "dreamingFl", 0 ],
-			"obj-53.1::obj-65::obj-17" : [ "dreamingCl", "dreamingCl", 0 ],
-			"obj-53.1::obj-65::obj-19" : [ "DreamingVla", "DreamingVla", 0 ],
-			"obj-53.1::obj-65::obj-2" : [ "BassRisset", "BassRisset", 0 ],
-			"obj-53.1::obj-65::obj-26" : [ "clusterGliss", "clusterGliss", 0 ],
-			"obj-53.1::obj-65::obj-27" : [ "MutoWir", "MutoWir", 0 ],
-			"obj-53.1::obj-65::obj-28" : [ "MutoBg", "MutoBg", 0 ],
-			"obj-53.1::obj-65::obj-29" : [ "MutoSop", "MutoSop", 0 ],
-			"obj-53.1::obj-65::obj-3" : [ "tenorModes", "tenorModes", 0 ],
-			"obj-53.1::obj-65::obj-30" : [ "MoogSplat", "MoogSplat", 0 ],
-			"obj-53.1::obj-65::obj-31" : [ "Sop&FluteSus", "Sop&FluteSus", 0 ],
-			"obj-53.1::obj-65::obj-33" : [ "MutoTenor", "MutoTenor", 0 ],
-			"obj-53.1::obj-65::obj-35" : [ "Harmonizer", "Harmonizer", 0 ],
-			"obj-53.1::obj-65::obj-4" : [ "DreamingMaster", "DreamingMaster", 0 ],
-			"obj-53.1::obj-65::obj-40" : [ "Fixed", "Fixed", 0 ],
-			"obj-53.1::obj-65::obj-5" : [ "dreamingTen", "dreamingTen", 0 ],
-			"obj-53.1::obj-65::obj-6" : [ "MutoMaster", "MutoMaster", 0 ],
 			"obj-97" : [ "number[1]", "number[1]", 0 ],
 			"obj-99" : [ "number[2]", "number[2]", 0 ],
 			"parameterbanks" : 			{
@@ -7887,421 +8090,197 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "mcs.dac~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spell14.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/Scenes/House of Hearts",
-				"patcherrelativepath" : "../Scenes/House of Hearts",
+				"name" : "dummy.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes",
+				"patcherrelativepath" : "../Scenes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "spell14Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
-				"patcherrelativepath" : "../presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.dreamingBass.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_grainflow.poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.voice.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.util.record~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.record.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.util.stereoPan~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.rissetArp.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.dreamingViola.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cp.multitap~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_cp.poly.multitap.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "_cp.multitap.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.util.randomRangeList.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.dreamingTenor.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "input2Modes.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fftjit.fft.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fftjit.getPeaks.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fftjit.getPeaks.genjit",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gJIT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fftjit.bin2freq.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fftjit.reg.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.poly.modal.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan2S.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.dreamingSoprano.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.dreamingWinds.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tinyMesh~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "wobblyDistortion.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnld2~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnld-poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.clusterGliss.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.live~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.grainTextureFolloer.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.moogsplat.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "poly.moogladderx2.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/other",
-				"patcherrelativepath" : "../other",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.ampThresh.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/other",
-				"patcherrelativepath" : "../other",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moogLadderFilter.genexpr",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/other",
-				"patcherrelativepath" : "../other",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mc.vdelay.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.util.grainRecord~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainflow.grainRecord.gendsp",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ampTrigger.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "v.player_poly.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spell14Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
+				"name" : "globalSettings.json",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell76.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/Scenes/House of Hearts",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes/House of Hearts",
 				"patcherrelativepath" : "../Scenes/House of Hearts",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "grainflow.util.record~.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainflow.record.gendsp",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainflow~.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_grainflow.poly.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainflow.voice.gendsp",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainflow.util.stereoPan~.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cp.wgMesh~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMeshGen.js",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/code",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cp.wgMesh.spaceMixer.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Spell76Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.bubbler.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tinyMesh~.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cp.multitap~.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_cp.poly.multitap.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_cp.multitap.gendsp",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spell76Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/presets",
 				"patcherrelativepath" : "../presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Spell37-25.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/Scenes/House of Hearts",
-				"patcherrelativepath" : "../Scenes/House of Hearts",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Spell37Mixer.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
-				"patcherrelativepath" : "../presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spell37-25Cues.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
-				"patcherrelativepath" : "../presets",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cnld8~.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"name" : "input2Modes.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "v.soundSmoke.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"name" : "fftjit.fft.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "v.poly.reverse.maxpat",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/patchers",
+				"name" : "fftjit.getPeaks.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "globalSettings.json",
-				"bootpath" : "D:/Git/Vessles/Vessles Max/Vessels VR/presets",
-				"patcherrelativepath" : "../presets",
+				"name" : "fftjit.getPeaks.genjit",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gJIT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fftjit.bin2freq.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fftjit.reg.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "v.poly.modal.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pan2S.maxpat",
+				"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -8322,19 +8301,7 @@
 				"type" : "mx64"
 			}
 , 			{
-				"name" : "fluid.pitch~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
 				"name" : "jit.pass.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "fluid.spectralshape~.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "fluid.chroma~.mxe64",
 				"type" : "mx64"
 			}
  ],
@@ -8361,12 +8328,6 @@
 				"name" : "Minimal",
 				"default" : 				{
 					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 10.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Futura Medium" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -8377,8 +8338,14 @@
 						"autogradient" : 0.0
 					}
 ,
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 10.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
+					"fontname" : [ "Futura Medium" ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -8388,12 +8355,6 @@
 				"name" : "Minimal-1",
 				"default" : 				{
 					"fontface" : [ 0 ],
-					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Lato" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -8404,8 +8365,14 @@
 						"autogradient" : 0.0
 					}
 ,
+					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.741176470588235, 0.741176470588235, 0.741176470588235, 1.0 ],
+					"fontname" : [ "Lato" ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ]
 				}
 ,
