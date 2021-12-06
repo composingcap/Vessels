@@ -82,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 519.0, 96.0, 138.0, 21.0 ],
-					"text" : "mc.phasor~ 4 @chans 20"
+					"text" : "mc.phasor~ 4 @chans 16"
 				}
 
 			}
@@ -538,7 +538,6 @@
 		"styles" : [ 			{
 				"name" : "Minimal",
 				"default" : 				{
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 10.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -552,11 +551,12 @@
 ,
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Futura Medium" ],
-					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"editing_bgcolor" : [ 0.956862745098039, 0.956862745098039, 0.956862745098039, 1.0 ],
+					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"elementcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"fontface" : [ 0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,

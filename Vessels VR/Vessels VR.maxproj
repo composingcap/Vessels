@@ -2,7 +2,7 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3720284407,
+	"modificationdate" : 3720823796,
 	"viewrect" : [ 566.0, 555.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -274,6 +274,16 @@
 				"local" : 1
 			}
 ,
+			"meshIRLong.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
+,
 			"WaterSounds.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -400,12 +410,12 @@
 		}
 ,
 		"data" : 		{
-			"globalSettings.json" : 			{
+			"spell76Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"spell76Cues.json" : 			{
+			"globalSettings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
