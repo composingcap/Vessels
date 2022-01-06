@@ -2,8 +2,8 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3720823796,
-	"viewrect" : [ 566.0, 555.0, 300.0, 490.0 ],
+	"modificationdate" : 3724095934,
+	"viewrect" : [ 343.0, 491.0, 300.0, 490.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -11,6 +11,16 @@
 	"contents" : 	{
 		"patchers" : 		{
 			"v.bubbler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"v.varaspeed.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -58,6 +68,11 @@
 					"projectrelativepath" : "./Scenes/House of Hearts"
 				}
 
+			}
+,
+			"v.grainspreader.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"v.poly.modal.maxpat" : 			{
@@ -120,6 +135,11 @@
 
 			}
 ,
+			"memoryplayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"cnld4~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -151,39 +171,14 @@
 
 			}
 ,
-			"dummy.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"input2Modes.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"fftjit.bin2freq.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"v.dreamingBass.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"v.rissetArp.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"Spell37-25.maxpat" : 			{
@@ -191,7 +186,27 @@
 				"local" : 1
 			}
 ,
+			"mc.cnld4~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"v.soundSmoke.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"v.poly.reverse.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dummy.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"input2Modes.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -201,14 +216,9 @@
 
 			}
 ,
-			"v.poly.reverse.maxpat" : 			{
+			"fftjit.bin2freq.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"cp.inputchannelstrip.maxpat" : 			{
@@ -242,6 +252,16 @@
 			}
 ,
 			"gramophoneFilter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"moogsplatpoly.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -286,22 +306,52 @@
 ,
 			"WaterSounds.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"WaterStreams.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
+,
+			"spell37MC.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
 			}
 ,
 			"Lo Crackle.aif" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"MutoscopeStart2.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"pen.aiff" : 			{
@@ -398,6 +448,16 @@
 				"kind" : "audiofile",
 				"local" : 1
 			}
+,
+			"spell25MC.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
 
 		}
 ,
@@ -410,17 +470,12 @@
 		}
 ,
 		"data" : 		{
-			"spell76Cues.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"globalSettings.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"spell14Cues.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"spell76Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -431,6 +486,11 @@
 			}
 ,
 			"spell37-25Cues.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"globalSettings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -489,6 +549,26 @@
 			"Spell76MIDI.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1
+			}
+,
+			"Spell37MIDI.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"Spell25MIDI.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
 			}
 
 		}

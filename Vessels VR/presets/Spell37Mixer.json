@@ -5,16 +5,17 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"Spell 25" : [ 0.0 ],
-					"Spell 37" : [ 0.0 ],
 					"bassGrains" : [ 0.0 ],
-					"bassSoundSmoke" : [ 0.0 ],
 					"clRev" : [ 0.0 ],
 					"percGrains" : [ 0.0 ],
 					"repeater" : [ 0.0 ],
-					"tenorBassBoost" : [ 0.0 ],
-					"tenorGramaphone" : [ -0.055880111760246 ],
-					"varaspeed" : [ 0.0 ]
+					"repeater[1]" : [ 0.0 ],
+					"tenorBassBoost" : [ -70.0 ],
+					"tenorGramaphone" : [ 0.0 ],
+					"varaspeed" : [ 0.0 ],
+					"varaspeed[2]" : [ 0.0 ],
+					"varaspeed[3]" : [ 0.0 ],
+					"memories" : [ 0.0 ]
 				}
 
 			}
