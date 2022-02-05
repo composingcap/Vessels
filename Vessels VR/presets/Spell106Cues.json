@@ -1,0 +1,230 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Spell106Cues",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 0 ],
+					"bankCue" : [ 1 ],
+					"distortionMod" : [ -0.25 ],
+					"harmSplit" : [ 0.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.0 ],
+					"maxOverlap[1]" : [ 0.0 ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 1 ],
+					"distortionMod" : [ 0.25 ],
+					"harmSplit" : [ 0.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.0 ],
+					"maxOverlap[1]" : [ 0.1 ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 2 ],
+					"distortionMod" : [ 0.25 ],
+					"harmSplit" : [ 0.2 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.5 ],
+					"maxOverlap[1]" : [ 0.2 ],
+					"minOverlap" : [ 0.8 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 3 ],
+					"distortionMod" : [ 0.1 ],
+					"harmSplit" : [ 0.5 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 2.0 ],
+					"maxOverlap[1]" : [ 0.2 ],
+					"minOverlap" : [ 1.0 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 4 ],
+					"distortionMod" : [ 0.1 ],
+					"harmSplit" : [ 0.7 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 2.5 ],
+					"maxOverlap[1]" : [ 0.2 ],
+					"minOverlap" : [ 1.0 ],
+					"constiatonProgress" : [ 0.05 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"HeartToJoy" : [ 1 ],
+					"LoopState" : [ 0 ],
+					"bankCue" : [ 4 ],
+					"distortionMod" : [ -0.25 ],
+					"harmSplit" : [ 0.7 ],
+					"hearTOJoyEnabled" : [ 1 ],
+					"maxOverlap" : [ 2.5 ],
+					"maxOverlap[1]" : [ 0.0 ],
+					"minOverlap" : [ 1.0 ],
+					"constiatonProgress" : [ 0.1 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"HeartToJoy" : [ 1 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 5 ],
+					"distortionMod" : [ 0.1 ],
+					"harmSplit" : [ 0.8 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 3.0 ],
+					"maxOverlap[1]" : [ 0.25 ],
+					"minOverlap" : [ 1.5 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"HeartToJoy" : [ 1 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 6 ],
+					"distortionMod" : [ 0.25 ],
+					"harmSplit" : [ 1.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.5 ],
+					"maxOverlap[1]" : [ 0.25 ],
+					"minOverlap" : [ 1.0 ],
+					"constiatonProgress" : [ 0.05 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"HeartToJoy" : [ 1 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 7 ],
+					"distortionMod" : [ 0.25 ],
+					"harmSplit" : [ 1.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.0 ],
+					"maxOverlap[1]" : [ 0.25 ],
+					"minOverlap" : [ 0.8 ],
+					"constiatonProgress" : [ 0.1 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"HeartToJoy" : [ 2 ],
+					"LoopState" : [ 1 ],
+					"bankCue" : [ 7 ],
+					"distortionMod" : [ 0.25 ],
+					"harmSplit" : [ 1.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 0.8 ],
+					"maxOverlap[1]" : [ 0.0 ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [ 0.2 ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"HeartToJoy" : [ 2 ],
+					"LoopState" : [ 0 ],
+					"bankCue" : [ 7 ],
+					"distortionMod" : [ -0.25 ],
+					"harmSplit" : [ 0.5 ],
+					"hearTOJoyEnabled" : [ 1 ],
+					"maxOverlap" : [ 0.8 ],
+					"maxOverlap[1]" : [ 0.0 ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [ 1.0 ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 0 ],
+					"bankCue" : [ 1 ],
+					"distortionMod" : [ -0.5 ],
+					"harmSplit" : [ 0.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.0 ],
+					"maxOverlap[1]" : [ 0.0 ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [ 0.0 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"HeartToJoy" : [ 0 ],
+					"LoopState" : [ 0 ],
+					"bankCue" : [ 1 ],
+					"distortionMod" : [ -0.5 ],
+					"harmSplit" : [ 0.0 ],
+					"hearTOJoyEnabled" : [ 0 ],
+					"maxOverlap" : [ 1.0 ],
+					"maxOverlap[1]" : [  ],
+					"minOverlap" : [ 0.5 ],
+					"constiatonProgress" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

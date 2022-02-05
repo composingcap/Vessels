@@ -2,8 +2,8 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3724095934,
-	"viewrect" : [ 343.0, 491.0, 300.0, 490.0 ],
+	"modificationdate" : 3726938578,
+	"viewrect" : [ 738.0, 751.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -105,16 +105,6 @@
 
 			}
 ,
-			"v.dreamingSoprano.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
-			}
-,
 			"spell14.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -137,7 +127,22 @@
 ,
 			"memoryplayer.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"v.dreamingSoprano.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"cnld4~.maxpat" : 			{
@@ -270,10 +275,160 @@
 				}
 
 			}
+,
+			"spell106.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes/House of Hearts",
+					"projectrelativepath" : "./Scenes/House of Hearts"
+				}
+
+			}
 
 		}
 ,
 		"media" : 		{
+			"glass_04.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_05.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_09.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_14.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_15.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_18.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_19.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_20.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_21.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_22.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_23.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_24.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_26.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
+			"glass_29.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"projectrelativepath" : "./media/glassCrashes"
+				}
+
+			}
+,
 			"MutoscopeStart.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
@@ -458,6 +613,46 @@
 				}
 
 			}
+,
+			"Vessels Spell 14 Recording_editMC1.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"Vessels Spell 14 Recording_editMC2.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"steamVents.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
+,
+			"MutoscopeStartMono.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
+			}
 
 		}
 ,
@@ -491,6 +686,11 @@
 			}
 ,
 			"globalSettings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Spell106Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -562,6 +762,36 @@
 			}
 ,
 			"Spell25MIDI.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"Vessels Spell 14 Recording_edit1.wav.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"Vessels Spell 14 Recording_edit2.wav.mid" : 			{
+				"kind" : "midifile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"projectrelativepath" : "./media/spells"
+				}
+
+			}
+,
+			"spell14MIDI_2.mid" : 			{
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
