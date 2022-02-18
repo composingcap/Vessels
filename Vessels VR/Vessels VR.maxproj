@@ -2,7 +2,7 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3726938578,
+	"modificationdate" : 3728059410,
 	"viewrect" : [ 738.0, 751.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -71,6 +71,11 @@
 			}
 ,
 			"v.grainspreader.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"spell26.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -176,16 +181,6 @@
 
 			}
 ,
-			"v.dreamingBass.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"v.rissetArp.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"Spell37-25.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -196,12 +191,27 @@
 				"local" : 1
 			}
 ,
-			"v.soundSmoke.maxpat" : 			{
+			"spell106.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"v.dreamingBass.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"v.poly.reverse.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"v.rissetArp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"v.soundSmoke.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -272,16 +282,6 @@
 				"singleton" : 				{
 					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
-				}
-
-			}
-,
-			"spell106.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes/House of Hearts",
-					"projectrelativepath" : "./Scenes/House of Hearts"
 				}
 
 			}
@@ -665,12 +665,7 @@
 		}
 ,
 		"data" : 		{
-			"spell14Cues.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"spell76Cues.json" : 			{
+			"Spell106Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -680,17 +675,22 @@
 				"local" : 1
 			}
 ,
-			"spell37-25Cues.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"globalSettings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"Spell106Cues.json" : 			{
+			"spell14Cues.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"spell37-25Cues.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"spell76Cues.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}

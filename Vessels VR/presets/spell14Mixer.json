@@ -9,23 +9,23 @@
 					"DreamingSop" : [ 3.0 ],
 					"DreamingVla" : [ -3.0 ],
 					"Fixed" : [ -3.0 ],
+					"Fixed[1]" : [ 0.0 ],
 					"Harmonizer" : [ 0.0 ],
 					"MoogSplat" : [ 0.0 ],
 					"MutoBg" : [ 0.0 ],
 					"MutoSop" : [ 0.0 ],
 					"MutoTenor" : [ -3.0 ],
 					"MutoWir" : [ -3.0 ],
+					"SopSus" : [ -1.779527559055126 ],
+					"SopSus[1]" : [ 0.0 ],
+					"SopSus[2]" : [ 0.0 ],
 					"VlaSparkle" : [ -12.0 ],
 					"clusterGliss" : [ -0.325459317585285 ],
 					"clusterGliss[1]" : [ 0.0 ],
 					"dreamingBass" : [ 0.0 ],
 					"dreamingCl" : [ 0.0 ],
 					"dreamingFl" : [ 0.0 ],
-					"dreamingTen" : [ -6.0 ],
-					"Fixed[1]" : [ 0.0 ],
-					"SopSus" : [ -1.779527559055126 ],
-					"SopSus[1]" : [ 0.0 ],
-					"SopSus[2]" : [ 0.0 ]
+					"dreamingTen" : [ -6.0 ]
 				}
 
 			}
