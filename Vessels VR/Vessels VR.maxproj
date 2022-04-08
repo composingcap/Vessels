@@ -2,8 +2,8 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3728059410,
-	"viewrect" : [ 738.0, 751.0, 294.0, 439.0 ],
+	"modificationdate" : 3730845767,
+	"viewrect" : [ 710.0, 573.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -660,6 +660,16 @@
 			"pfft.gate.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
+			}
+,
+			"showRunner.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/other",
+					"projectrelativepath" : "./other"
+				}
+
 			}
 
 		}
