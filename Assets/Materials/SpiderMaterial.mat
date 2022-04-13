@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpiderMaterial
+  m_Shader: {fileID: 4800000, guid: 2a158c6375fb98d43957c061ab09737e, type: 3}
+  m_ShaderKeywords: _MAINTEXX_ON _MAINTEXY_ON _MAINTEXZ_ON _TEX1X_ON _TEX1Y_ON _TEX1Z_ON
+    _TEX2X_ON _TEX2Y_ON _TEX2Z_ON _TEX3X_ON _TEX3Y_ON _TEX3Z_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DitherTexture:
+        m_Texture: {fileID: 2800000, guid: f240bbb7854046345b218811e5681a54, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNorm:
+        m_Texture: {fileID: 2800000, guid: d4352fab21d3bde4aa6e7ab15114d203, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: afd3f02eeb5e34b499c67ed0ddbeba9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Norm1:
+        m_Texture: {fileID: 2800000, guid: 8c8d4df94c2aabf48b43d21a3eef1d9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Norm2:
+        m_Texture: {fileID: 2800000, guid: 6bb8e8a73e23ee24289a94479b9ec978, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Norm3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex1:
+        m_Texture: {fileID: 2800000, guid: d59e1212faa39d0498f87916ad57aa80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex2:
+        m_Texture: {fileID: 2800000, guid: 4f867a21f17e858419077e969e4373e6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoutThreshold: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DitherTextureSize: 256
+    - _Dithering: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _IsMeshRenderMaterial: 1
+    - _MainNormX: 1
+    - _MainNormY: 1
+    - _MainNormZ: 1
+    - _MainTexX: 0
+    - _MainTexY: 1
+    - _MainTexZ: 1
+    - _Metallic: 0
+    - _Norm1X: 1
+    - _Norm1Y: 1
+    - _Norm1Z: 1
+    - _Norm2X: 1
+    - _Norm2Y: 1
+    - _Norm2Z: 1
+    - _Norm3X: 1
+    - _Norm3Y: 1
+    - _Norm3Z: 1
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _RandomDither: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _TessEdgeLength: 16
+    - _TessMax: 25
+    - _TessMaxDisp: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 16
+    - _Tex1X: 1
+    - _Tex1Y: 1
+    - _Tex1Z: 1
+    - _Tex2X: 1
+    - _Tex2Y: 1
+    - _Tex2Z: 1
+    - _Tex3X: 1
+    - _Tex3Y: 1
+    - _Tex3Z: 1
+    - _TransAmbient: 0.1
+    - _TransDirect: 0.9
+    - _TransNormal: 0.5
+    - _TransScattering: 2
+    - _TransShadow: 0.5
+    - _TransStrength: 1
+    - _TransmissionShadow: 0.5
+    - _UseNorm0: 1
+    - _UseNorm1: 1
+    - _UseNorm2: 1
+    - _UseNorm3: 0
+    - _UseTex0: 1
+    - _UseTex1: 1
+    - _UseTex2: 1
+    - _UseTex3: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
