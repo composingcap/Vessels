@@ -1,0 +1,1673 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8797599948261533931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948261533928}
+  - component: {fileID: 8797599948261533934}
+  - component: {fileID: 8797599948261533929}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple) (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948261533928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948261533931}
+  m_LocalRotation: {x: -0, y: 0.9998904, z: -0, w: -0.014806573}
+  m_LocalPosition: {x: -2.34, y: 11.56, z: -3.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8797599948551367649}
+  - {fileID: 8797599950014920597}
+  - {fileID: 8797599948642935752}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 181.697, z: 0}
+--- !u!114 &8797599948261533934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948261533931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 0
+--- !u!114 &8797599948261533929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948261533931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 1
+  m_symmetry: 0
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599948551367649}
+  ControlPoint: {fileID: 8797599950014920597}
+  PointB: {fileID: 8797599948642935752}
+  m_radiusA: 0.5
+  m_radiusControlPoint: -1
+  m_radiusB: 0.25
+  m_smoothStepBlend: 0
+  m_enableNoise: 0
+  m_noiseOffset: 0
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.45
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0
+  m_noiseNumOctaves: 2
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 0
+  m_noiseTwistOffset: 0
+  m_basis:
+    e00: 0.36797208
+    e01: -0.4790151
+    e02: 0.7969574
+    e03: -0.80740094
+    e10: -0.925498
+    e11: -0.10597718
+    e12: 0.36362383
+    e13: 5.68975
+    e20: -0.08972207
+    e21: -0.8713858
+    e22: -0.48232412
+    e23: -0.07316339
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599948384084403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948384084401}
+  - component: {fileID: 8797599948384084400}
+  m_Layer: 0
+  m_Name: Heart Room Render
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948384084401
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948384084403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.41}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 8797599948506136973}
+  - {fileID: 8797599949719254251}
+  - {fileID: 8797599949928556349}
+  - {fileID: 8797599948756163852}
+  - {fileID: 8797599950035795142}
+  - {fileID: 8797599949721368557}
+  - {fileID: 8797599948261533928}
+  - {fileID: 8797599948925855615}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8797599948384084400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948384084403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1406bb0b613343248bba1c664e68d2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxVoxelsK: 253
+  MaxChunks: 64
+  ShowGpuMemoryUsage: 0
+  AutoAdjustBudgetsToHighWaterMarks: 0
+  AutoAdjustBudgetsToHighWaterMarksMarginPercent: 16
+  VoxelDensity: 3.8
+  ForceEvaluateAllBrushes: 0
+  Enable2dMode: 0
+  SurfaceShift: -0
+  RenderMode: 3
+  MeshingMode: 0
+  RayTracedVoxelMode: 0
+  RayTracedVoxelSizeMultiplier: 1
+  RayTracedVoxelSmoothCubeNormal: 0
+  RayTracedVoxelSphereFullness: 0
+  RayTracedVoxelPaddingMode: 1
+  RayTracedVoxelInternalPaddingDistance: 0
+  RayTracedVoxelSizeFadeDistance: 0
+  ShowAdvancedNormalOptions: 1
+  SmoothNormalBlurRelative: 0.05
+  SmoothNormalBlurAbsolute: 0.126
+  NormalQuantization: 0.457
+  Normal2dFade: 0
+  Normal2dStrength: 1
+  EnableAutoSmoothing: 0
+  AutoSmoothingMaxAngle: 30
+  EnableSmoothCorner: 0
+  SmoothCornerSubdivision: 2
+  SmoothCornerNormalBlur: 0.02
+  SmoothCornerFade: 0
+  ShowAdvancedSplatOptions: 1
+  SplatSize: 2
+  SplatSizeJitter: 0
+  SplatNormalShift: -1
+  SplatNormalShiftJitter: 1
+  SplatColorJitter: 0.489
+  SplatPositionJitter: 1
+  SplatRotationJitter: 1
+  SplatOrientationJitter: 1
+  SplatOriginalNormalBlend: 1
+  SplatJitterNoisiness: 1
+  SplatCameraFacing: 0
+  SplatNormalsMatchCameraFacing: 1
+  SplatShadowsMatchCameraFacing: 1
+  SplatScreenSpaceFlattening: 1
+  SurfaceNetsDualQuadsBlend: 0.716
+  ShowAdvancedGeometryOptions: 1
+  SurfaceNetsHighAccuracyMode: 0
+  DualContouringDualQuadsBlend: 0
+  DualContouringRelaxation: 0
+  DualContouringHighAccuracyMode: 0
+  CastShadows: 1
+  ReceiveShadows: 1
+  SharedMaterial: {fileID: 0}
+  m_masterColor: {r: 0.5471698, g: 0.41166785, b: 0.2761659, a: 1}
+  m_masterEmission: {r: 0, g: 0, b: 0, a: 1}
+  m_masterMetallic: 0
+  m_masterSmoothness: 0
+  RenderMaterialMesh: {fileID: 2100000, guid: 62d1281f6e6ca6c4abeb566741c360ae, type: 2}
+  RenderMaterialSplats: {fileID: 2100000, guid: 70d55dc02aa47694bb8741520322228c, type: 2}
+  RenderMaterialDecal: {fileID: 2100000, guid: 1ff34c3e08ceb6c4ea2c962cc062ae47, type: 2}
+  RenderMaterialRayMarchedSurface: {fileID: 2100000, guid: 9874012d7d143a840bc154cf8718c755, type: 2}
+  RenderMaterialRayTracedVoxels: {fileID: 2100000, guid: 4378835a0a38cad45878ca15065f25fa, type: 2}
+  MaxRayMarchSteps: 64
+  RayMarchAccuracy: 0.5
+  RayMarchMaxRayDistance: 1000
+  RayMarchStepSize: 0.5
+  NumLightMarchSteps: 8
+  RayMarchVolumeDensity: 5
+  RayMarchLight: {fileID: 0}
+  RayMarchVolumeAbsorption: 1
+  RayMarchLightAbsorption: 1
+  RayMarchDarknesThreshold: 0.1
+  RayMarchTransmittanceCurve: 0
+  UseRayMarchNoise: 0
+  RayMarchNoiseThreshold: 0.2
+  RayMarchNoiseEdgeFade: 2
+  RayMarchNoiseScrollSpeed: {x: 0, y: 0, z: 0}
+  RayMarchNoiseBaseOctaveSize: {x: 1, y: 1, z: 1}
+  RayMarchNoiseNumOctaves: 2
+  RayMarchNoiseOctaveOffsetFactor: 0.5
+  EnableClickSelection: 1
+  AlwaysDrawGizmos: 0
+  DrawRawBrushBounds: 0
+  DrawComputeBrushBounds: 0
+  DrawRenderBounds: 0
+  DrawVoxelNodes: 0
+  DrawVoxelNodesDepth: -1
+  DrawVoxelNodesScale: 1
+  m_firstTrackedVersion: 1.1.26
+  m_previousTrackedVersion: 1.3.30
+  m_currentTrackedVersion: 1.3.30
+  MeshGenerationCreateNewObject: 0
+  MeshGenerationCreateCollider: 1
+  MeshGenerationForceConvexCollider: 0
+  MeshGenerationColliderSurfaceShift: 0
+  MeshGenerationCreateRigidBody: 0
+  GenerateColliderMeshAssetByEditor: 1
+  GenerateColliderMeshAssetByEditorName: Room Render Collider Mesh 23106
+  MeshGenerationColliderVoxelDensity: 4
+  MeshGenerationRenderableMeshMode: 1
+  MeshGenerationAutoRigging: 0
+  MeshGenerationUVGeneration: 0
+  MeshGenerationWeldVertices: 1
+  MeshGenerationLockOnStart: 1
+  GenerateMeshAssetByEditor: 1
+  GenerateMeshAssetByEditorName: Mud Renderer Mesh 4294947232
+  RecursiveLockMeshByEditor: 1
+  RememberLockedMeshMaterialByEditor: 1
+  MeshGenerationLockOnStartByEditor: 0
+  m_lastLockedMeshMaterial: {fileID: 2100000, guid: ff454afbeff97ae49830b322aaae7981, type: 2}
+  m_aBrushTransformCache: []
+  m_aNestedRendereTransformCache: []
+  m_isMeshLocked: 0
+  DrawGenerateSdfGizmos: 0
+  GenerateSdfByEditorName: Mud Renderer SDF 4294947232
+  GenerateSdfCenter: {x: 0, y: 0, z: 0}
+  GenerateSdfDimension: {x: 1, y: 1, z: 1}
+  GenerateSdfTextureSize: {x: 64, y: 64, z: 64}
+  UseCutoffVolume: 0
+  CutoffVolumeCenter: {fileID: 0}
+  CutoffVolumeSize: {x: 1, y: 1, z: 1}
+  ComputeMode: 0
+  TimeSliceMode: 2
+  TimeSliceFrames: 3
+  TimeSliceFramesOffset: 0
+  TimeSlicePeriod: 0.05
+  TimeSliceTimeOffset: 0
+  m_addedComponents: []
+--- !u!1 &8797599948472210197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948472210202}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948472210202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948472210197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.71, y: 2.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599950035795142}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948506136972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948506136973}
+  - component: {fileID: 8797599948506136979}
+  - component: {fileID: 8797599948506136978}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948506136973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948506136972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 39.100163, y: 1.9563441, z: 38.009563}
+  m_Children:
+  - {fileID: 8797599948718620515}
+  - {fileID: 8797599949715786111}
+  - {fileID: 8797599949841295569}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8797599948506136979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948506136972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 1
+--- !u!114 &8797599948506136978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948506136972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 0
+  m_symmetry: 3
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599948718620515}
+  ControlPoint: {fileID: 8797599949715786111}
+  PointB: {fileID: 8797599949841295569}
+  m_radiusA: 1.35
+  m_radiusControlPoint: -1
+  m_radiusB: 0.21
+  m_smoothStepBlend: 0
+  m_enableNoise: 1
+  m_noiseOffset: 8.68
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.338
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0.07
+  m_noiseNumOctaves: 1
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 1.44
+  m_noiseTwistOffset: 0.91
+  m_basis:
+    e00: 0.6470032
+    e01: 0.7624873
+    e02: 0
+    e03: -5.043921
+    e10: 0.7624873
+    e11: -0.6470032
+    e12: 0
+    e13: 5.5755806
+    e20: 0
+    e21: 0
+    e22: -1
+    e23: 1.41
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599948508546932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948508546933}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948508546933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948508546932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.123, y: 3.93, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949928556349}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948544711146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948544711147}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948544711147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948544711146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.123, y: 3.93, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949719254251}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948551367648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948551367649}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948551367649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948551367648}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.39, y: 2.58, z: -0.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948261533928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948572670838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948572670839}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948572670839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948572670838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.39, y: 2.58, z: -0.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948925855615}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948597386378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948597386379}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948597386379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948597386378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949719254251}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948642935755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948642935752}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948642935752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948642935755}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.82, y: -2.941, z: -0.12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948261533928}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948718620514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948718620515}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948718620515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948718620514}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948506136973}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948756163855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948756163852}
+  - component: {fileID: 8797599948756163858}
+  - component: {fileID: 8797599948756163853}
+  - component: {fileID: 8797599948756163859}
+  m_Layer: 0
+  m_Name: Mud Box
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948756163852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948756163855}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 62.52, y: 1.5, z: 55.5}
+  m_Children: []
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8797599948756163858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948756163855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 0.4339623, g: 0.41857636, b: 0.30909577, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 1
+--- !u!114 &8797599948756163853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948756163855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47a9275618c3f8245920c7d3e2949d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 4.15
+  m_symmetry: 1
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_noiseType: 0
+  m_coordinateSystem: 1
+  m_boundaryShape: 1
+  m_boundaryBlend: 0.94
+  m_boundaryRadius: 0.4
+  m_boundaryAngle: 45
+  m_offset: {x: 0.37, y: 0, z: 0}
+  m_baseOctaveSize: {x: 1, y: 1, z: 1}
+  m_threshold: 0.266
+  m_thresholdFade: 0.357
+  m_numOctaves: 3
+  m_octaveOffsetFactor: 0.24
+  m_lockPosition: 0
+--- !u!114 &8797599948756163859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948756163855}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62fbaaa531e25548a7294608aa4d4a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: {x: 0.1, y: 0, z: 0}
+--- !u!1 &8797599948925855614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948925855615}
+  - component: {fileID: 8797599948925855613}
+  - component: {fileID: 8797599948925855612}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple) (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948925855615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948925855614}
+  m_LocalRotation: {x: -0, y: 0.9998904, z: -0, w: -0.014806573}
+  m_LocalPosition: {x: 2.82, y: 11.56, z: -3.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8797599948572670839}
+  - {fileID: 8797599948976560937}
+  - {fileID: 8797599949123880142}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 181.697, z: 0}
+--- !u!114 &8797599948925855613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948925855614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 0
+--- !u!114 &8797599948925855612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948925855614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 1
+  m_symmetry: 0
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599948572670839}
+  ControlPoint: {fileID: 8797599948976560937}
+  PointB: {fileID: 8797599949123880142}
+  m_radiusA: 0.5
+  m_radiusControlPoint: -1
+  m_radiusB: 0.25
+  m_smoothStepBlend: 0
+  m_enableNoise: 0
+  m_noiseOffset: 0
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.45
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0
+  m_noiseNumOctaves: 2
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 0
+  m_noiseTwistOffset: 0
+  m_basis:
+    e00: -0.45319903
+    e01: 0.5141351
+    e02: 0.72820044
+    e03: 0.5187955
+    e10: -0.8872421
+    e11: -0.18126965
+    e12: -0.4241966
+    e13: 5.68975
+    e20: -0.08609381
+    e21: -0.8383355
+    e22: 0.5383135
+    e23: -0.07328844
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599948976560936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948976560937}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948976560937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948976560936}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.32, y: -3.49, z: 4.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948925855615}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599948987321494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599948987321495}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599948987321495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599948987321494}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.016, y: 11.4, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949928556349}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949123880137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949123880142}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949123880142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949123880137}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.193, y: -2.941, z: 0.029}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948925855615}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949250297683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949250297680}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949250297680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949250297683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949928556349}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949456917924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949456917925}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949456917925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949456917924}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.93, y: -2.595, z: -0.008}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949721368557}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949473559565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949473559570}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949473559570
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949473559565}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.016, y: 11.4, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949719254251}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949516449360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949516449361}
+  m_Layer: 0
+  m_Name: Curve Point A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949516449361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949516449360}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.71, y: 2.58, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949721368557}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949715786110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949715786111}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949715786111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949715786110}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.123, y: 3.93, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948506136973}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949719254250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949719254251}
+  - component: {fileID: 8797599949719254249}
+  - component: {fileID: 8797599949719254248}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949719254251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949719254250}
+  m_LocalRotation: {x: -0, y: -0.46567452, z: -0, w: 0.8849561}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 38.359306, y: 1.9563441, z: 38.75042}
+  m_Children:
+  - {fileID: 8797599948597386379}
+  - {fileID: 8797599948544711147}
+  - {fileID: 8797599949473559570}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -55.508, z: 0}
+--- !u!114 &8797599949719254249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949719254250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 1
+--- !u!114 &8797599949719254248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949719254250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 0
+  m_symmetry: 3
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599948597386379}
+  ControlPoint: {fileID: 8797599948544711147}
+  PointB: {fileID: 8797599949473559570}
+  m_radiusA: 1.35
+  m_radiusControlPoint: -1
+  m_radiusB: 0.21
+  m_smoothStepBlend: 0
+  m_enableNoise: 1
+  m_noiseOffset: 8.68
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.338
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0.07
+  m_noiseNumOctaves: 1
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 1.44
+  m_noiseTwistOffset: 0.91
+  m_basis:
+    e00: 0.3623097
+    e01: 0.43522525
+    e02: 0.8242031
+    e03: -2.8022237
+    e10: 0.76854944
+    e11: -0.63979053
+    e12: -0.000000029802322
+    e13: 5.5755806
+    e20: 0.5273172
+    e21: 0.63344073
+    e22: -0.56629443
+    e23: -2.6684456
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599949721368556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949721368557}
+  - component: {fileID: 8797599949721368563}
+  - component: {fileID: 8797599949721368562}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple) (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949721368557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949721368556}
+  m_LocalRotation: {x: -0, y: 0.9998904, z: -0, w: -0.014806573}
+  m_LocalPosition: {x: 5.07, y: 11.56, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8797599949516449361}
+  - {fileID: 8797599950132556982}
+  - {fileID: 8797599949456917925}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 181.697, z: 0}
+--- !u!114 &8797599949721368563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949721368556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 0
+--- !u!114 &8797599949721368562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949721368556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 1
+  m_symmetry: 0
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599949516449361}
+  ControlPoint: {fileID: 8797599950132556982}
+  PointB: {fileID: 8797599949456917925}
+  m_radiusA: 0.5
+  m_radiusControlPoint: -1
+  m_radiusB: 0.25
+  m_smoothStepBlend: 0
+  m_enableNoise: 0
+  m_noiseOffset: 0
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.45
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0
+  m_noiseNumOctaves: 2
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 0
+  m_noiseTwistOffset: 0
+  m_basis:
+    e00: -0.22931325
+    e01: 0.97278863
+    e02: 0.033134446
+    e03: 1.8753487
+    e10: -0.97331744
+    e11: -0.22946227
+    e12: 0.0007145647
+    e13: 5.77625
+    e20: 0.00829822
+    e21: -0.032086477
+    e22: 0.9994506
+    e23: 1.4315417
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599949841295568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949841295569}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949841295569
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949841295568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.016, y: 11.4, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948506136973}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949864606579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949864606576}
+  m_Layer: 0
+  m_Name: Curve Point B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949864606576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949864606579}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.202, y: -3.47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599950035795142}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949897460426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949897460427}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949897460427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949897460426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.52, y: -3.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599950035795142}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599949928556348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599949928556349}
+  - component: {fileID: 8797599949928556291}
+  - component: {fileID: 8797599949928556290}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple) (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599949928556349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949928556348}
+  m_LocalRotation: {x: -0, y: 0.3852257, z: -0, w: 0.9228224}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 38.54886, y: 1.9563441, z: 38.560867}
+  m_Children:
+  - {fileID: 8797599949250297680}
+  - {fileID: 8797599948508546933}
+  - {fileID: 8797599948987321495}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 45.316, z: 0}
+--- !u!114 &8797599949928556291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949928556348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 1
+--- !u!114 &8797599949928556290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599949928556348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 0
+  m_symmetry: 3
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599949250297680}
+  ControlPoint: {fileID: 8797599948508546933}
+  PointB: {fileID: 8797599948987321495}
+  m_radiusA: 1.35
+  m_radiusControlPoint: -1
+  m_radiusB: 0.21
+  m_smoothStepBlend: 0
+  m_enableNoise: 1
+  m_noiseOffset: 8.68
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.338
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0.07
+  m_noiseNumOctaves: 1
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 1.44
+  m_noiseTwistOffset: 0.91
+  m_basis:
+    e00: 0.4512112
+    e01: 0.53935313
+    e02: -0.71098995
+    e03: -3.4968865
+    e10: 0.7669958
+    e11: -0.64165235
+    e12: -0.000000029802322
+    e13: 5.5755806
+    e20: -0.45620826
+    e21: -0.54532623
+    e22: -0.70320225
+    e23: 4.9456124
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599950014920596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599950014920597}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599950014920597
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599950014920596}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.32, y: -3.49, z: 4.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599948261533928}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8797599950035795137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599950035795142}
+  - component: {fileID: 8797599950035795140}
+  - component: {fileID: 8797599950035795143}
+  m_Layer: 0
+  m_Name: Mud Curve (Simple)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599950035795142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599950035795137}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.82, y: 12.59, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8797599948472210202}
+  - {fileID: 8797599949897460427}
+  - {fileID: 8797599949864606576}
+  m_Father: {fileID: 8797599948384084401}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8797599950035795140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599950035795137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2390520846a478242a1b2271b4ddd597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_sharedMaterial: {fileID: 0}
+  m_color: {r: 1, g: 1, b: 1, a: 1}
+  m_emission: {r: 0, g: 0, b: 0, a: 1}
+  m_metallic: 0
+  m_smoothness: 0.5
+  m_textureIndex: 0
+  m_splatSize: 1
+  m_blendTightness: 0
+  m_contributeMaterial: 0
+--- !u!114 &8797599950035795143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599950035795137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de964585f760f7478bf1210cf0d8619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hidden: 0
+  m_operator: 0
+  m_blend: 1
+  m_symmetry: 0
+  m_countAsBone: 1
+  m_canCountAsBone: 1
+  m_elongation: 0
+  PointA: {fileID: 8797599948472210202}
+  ControlPoint: {fileID: 8797599949897460427}
+  PointB: {fileID: 8797599949864606576}
+  m_radiusA: 0.5
+  m_radiusControlPoint: -1
+  m_radiusB: 0.25
+  m_smoothStepBlend: 0
+  m_enableNoise: 0
+  m_noiseOffset: 0
+  m_noiseBaseOctaveSize: {x: 0.5, y: 0.5}
+  m_noiseThreshold: 0.45
+  m_noiseThresholdFade: 0
+  m_noiseThresholdCoreBias: 0
+  m_noiseNumOctaves: 2
+  m_noiseOctaveOffsetFactor: 0.5
+  m_noiseTwist: 0
+  m_noiseTwistOffset: 0
+  m_basis:
+    e00: 0.23943794
+    e01: -0.9709117
+    e02: 0
+    e03: -1.1819999
+    e10: -0.9709117
+    e11: -0.23943794
+    e12: -0
+    e13: 6.0725
+    e20: 0
+    e21: 0
+    e22: -1
+    e23: 1.41
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+--- !u!1 &8797599950132556977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797599950132556982}
+  m_Layer: 0
+  m_Name: Curve Control Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797599950132556982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8797599950132556977}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.52, y: -3.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8797599949721368557}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

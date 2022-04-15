@@ -14,16 +14,6 @@
       "dependencies": {},
       "hash": "39da70419a2dc9ce0059b40dd64abcdfcef58ea1"
     },
-    "com.unity.adaptiveperformance": {
-      "version": "4.0.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.subsystemregistration": "1.1.0",
-        "com.unity.profiling.core": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.animation.rigging": {
       "version": "1.1.1",
       "depth": 0,
@@ -129,13 +119,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.profiling.core": {
-      "version": "1.0.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.render-pipelines.core": {
       "version": "12.1.4",
       "depth": 1,
@@ -191,7 +174,7 @@
     },
     "com.unity.subsystemregistration": {
       "version": "1.1.0",
-      "depth": 1,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.subsystems": "1.0.0"

@@ -52,3 +52,6 @@ crashlytics-build.properties
 */MudBun/*
 Assets/AmplifyShaderEditor/
 Assets/MudBun Generated Assets/
+Assets/Heureka/
+Assets/Heureka.meta
+*.ahbuildinfo

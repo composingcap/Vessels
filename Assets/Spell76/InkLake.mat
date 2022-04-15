@@ -91,7 +91,7 @@ Material:
     m_Floats:
     - Depth: 1.46
     - Displace_Speed: 0.25
-    - Displace_Strength: 0.10000006
+    - Displace_Strength: 0.1
     - Normal_intensity: 1
     - Strength: 0.2
     - Vector1_00c9bef2fbe748bf855406ba82caaeff: 1
@@ -131,7 +131,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - speed: 1
-    - time: 85.008156
+    - time: 30.929083
     m_Colors:
     - Base: {r: 0.4249795, g: 0, b: 0.45282984, a: 0.74509805}
     - Color_05e97f0d91e14ae6a0c582087228fa28: {r: 0.47361434, g: 0, b: 0.509434, a: 0.95686275}
