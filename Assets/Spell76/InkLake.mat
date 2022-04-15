@@ -131,7 +131,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     - speed: 1
-    - time: 514.1558
+    - time: 85.008156
     m_Colors:
     - Base: {r: 0.4249795, g: 0, b: 0.45282984, a: 0.74509805}
     - Color_05e97f0d91e14ae6a0c582087228fa28: {r: 0.47361434, g: 0, b: 0.509434, a: 0.95686275}

@@ -27,7 +27,7 @@ public class InkCollision : MonoBehaviour
     public void addCollision(Vector3 impact)
     {
         InkCollisionAnimation anim = new InkCollisionAnimation();
-        anim.initalize(transform, Mathf.Pow(impact.magnitude,0.5f)*2, -impact.normalized, 1+ impact.magnitude * 3); ;
+        anim.initalize(transform, Mathf.Pow(impact.magnitude,0.5f)*2+0.1f , -impact.normalized, 1+ impact.magnitude * 3); ;
         inkCollisions.Add(anim);
     }
 

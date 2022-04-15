@@ -137,6 +137,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 338594035}
+  - component: {fileID: 338594036}
   m_Layer: 0
   m_Name: GameObject (1)
   m_TagString: Untagged
@@ -165,6 +166,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &338594036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338594034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d638472a260fe4daabc1e62a15e633, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomSize: 8
 --- !u!1 &473616147 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100044, guid: 8aef0fa9681ca07448e18dd542d1a31b, type: 3}
@@ -736,7 +750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8506570335830464716, guid: feeed98ca572d554a9d76cc72021a7d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18
+      value: 0.393
       objectReference: {fileID: 0}
     - target: {fileID: 8506570335830464716, guid: feeed98ca572d554a9d76cc72021a7d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1210,7 +1224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6821339259916682045, guid: b6743407d51850d4290a4755eabb3861, type: 3}
       propertyPath: VoxelDensity
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6821339259916682045, guid: b6743407d51850d4290a4755eabb3861, type: 3}
       propertyPath: RenderMaterialMesh
@@ -8013,7 +8027,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6549000695330796278}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.66, y: 1.04, z: -6.98}
+  m_LocalPosition: {x: -1.616, y: -1, z: -8.603}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8161,7 +8175,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1772032172825395846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.82, y: 1.61, z: -7.03}
+  m_LocalPosition: {x: -1.725, y: -1.3, z: -6.827}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8311,8 +8325,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5796072151968599117}
   - {fileID: 4586653590979456030}
+  - {fileID: 5796072151968599117}
   m_Father: {fileID: 5796072152402097944}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9197,7 +9211,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 18.27
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -13125,7 +13139,7 @@ Transform:
   - {fileID: 2774807386836909011}
   - {fileID: 2488256247354459777}
   m_Father: {fileID: 3261438654959294426}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4649495845257102627
 GameObject:
@@ -13188,7 +13202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hidden: 0
-  m_operator: 2
+  m_operator: 0
   m_blend: 0
   m_symmetry: 0
   m_countAsBone: 1
@@ -13253,7 +13267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3024767456998005672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.22, y: 1.31, z: -3.25}
+  m_LocalPosition: {x: 0.605, y: -0.33, z: -1.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13413,7 +13427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hidden: 0
-  m_operator: 0
+  m_operator: 2
   m_blend: 0.1
   m_symmetry: 0
   m_countAsBone: 1
@@ -13453,11 +13467,11 @@ Transform:
   m_GameObject: {fileID: 5796072151968599118}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1.8899984, y: 0.16425931, z: -3.4924872}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalScale: {x: 10, y: 5, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3261438654959294426}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5796072151968599118
 GameObject:
@@ -13485,9 +13499,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5796072152402097946}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 39.90309, y: -56.46497, z: -46.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.556, y: -56.87, z: -45.903}
+  m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3261438654959294426}
@@ -13514,7 +13528,7 @@ MonoBehaviour:
   ShowGpuMemoryUsage: 0
   AutoAdjustBudgetsToHighWaterMarks: 0
   AutoAdjustBudgetsToHighWaterMarksMarginPercent: 15
-  VoxelDensity: 8
+  VoxelDensity: 7
   ForceEvaluateAllBrushes: 1
   Enable2dMode: 0
   SurfaceShift: 0
@@ -13786,7 +13800,7 @@ MonoBehaviour:
   ShowGpuMemoryUsage: 0
   AutoAdjustBudgetsToHighWaterMarks: 0
   AutoAdjustBudgetsToHighWaterMarksMarginPercent: 16
-  VoxelDensity: 13
+  VoxelDensity: 12
   ForceEvaluateAllBrushes: 0
   Enable2dMode: 0
   SurfaceShift: 0
@@ -19004,14 +19018,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743003299815343962}
-  m_LocalRotation: {x: -0.9832745, y: -0.036384046, z: -0.1560766, w: -0.08653086}
-  m_LocalPosition: {x: -4.47, y: -0.206, z: 3.935}
+  m_LocalRotation: {x: -0.98751444, y: -0.14008981, z: -0.04560443, w: 0.055771504}
+  m_LocalPosition: {x: -3.267, y: 1, z: 3.785}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5796072152402097944}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -189.138, y: -18.49701, z: -5.729004}
+  m_LocalEulerAnglesHint: {x: -172.939, y: -4.302002, z: -15.882996}
 --- !u!4 &8378448353469475315
 Transform:
   m_ObjectHideFlags: 0

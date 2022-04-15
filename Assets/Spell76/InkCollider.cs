@@ -6,6 +6,7 @@ public class InkCollider : MonoBehaviour
 {
     
     Vector3 lastPosition;
+    Vector3 velocity;
     public OSC osc;
     private void Start()
     {
@@ -13,7 +14,9 @@ public class InkCollider : MonoBehaviour
         osc = GameObject.FindGameObjectWithTag("OSC").GetComponent<OSC>();
     }
     void Update()   {
+        velocity = lastPosition - transform.position; 
         lastPosition = transform.position;
+
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -23,7 +26,7 @@ public class InkCollider : MonoBehaviour
             InkCollision inkC = collision.gameObject.GetComponent<InkCollision>();
             if (inkC)
             {
-                inkC.addCollision(lastPosition - transform.position);
+                inkC.addCollision(velocity);
 
                 OscMessage m = new OscMessage();
                 m.address = "/inkRiverTrigger/";
