@@ -2,7 +2,7 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3730845767,
+	"modificationdate" : 3732930340,
 	"viewrect" : [ 710.0, 573.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -14,7 +14,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -24,7 +24,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -34,7 +34,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -44,7 +44,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -54,7 +54,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -64,7 +64,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes/House of Hearts",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/Scenes/House of Hearts",
 					"projectrelativepath" : "./Scenes/House of Hearts"
 				}
 
@@ -84,7 +84,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -94,7 +94,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -104,7 +104,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -114,7 +114,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/Scenes/House of Hearts",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/Scenes/House of Hearts",
 					"projectrelativepath" : "./Scenes/House of Hearts"
 				}
 
@@ -124,7 +124,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -134,7 +134,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -144,7 +144,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -154,7 +154,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -164,7 +164,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -175,7 +175,7 @@
 				"local" : 1,
 				"toplevel" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -225,7 +225,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -270,7 +270,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -280,7 +280,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/patchers",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
 					"projectrelativepath" : "./patchers"
 				}
 
@@ -293,7 +293,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -303,7 +303,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -313,7 +313,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -323,7 +323,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -333,7 +333,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -343,7 +343,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -353,7 +353,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -363,7 +363,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -373,7 +373,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -383,7 +383,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -393,7 +393,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -403,7 +403,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -413,7 +413,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -423,7 +423,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/glassCrashes",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/glassCrashes",
 					"projectrelativepath" : "./media/glassCrashes"
 				}
 
@@ -453,7 +453,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -463,7 +463,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -473,7 +473,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -483,27 +483,37 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
+			}
+,
+			"meshIRDry.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 ,
 			"Lo Crackle.aif" : 			{
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
+			}
+,
+			"meshIRHuge.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 ,
 			"MutoscopeStart2.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -513,7 +523,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -523,17 +533,22 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
+			}
+,
+			"meshIRShort.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
 			}
 ,
 			"irsOrd2.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -543,7 +558,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -553,7 +568,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -563,7 +578,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -573,7 +588,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -583,7 +598,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/HRTF",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/HRTF",
 					"projectrelativepath" : "./media/HRTF"
 				}
 
@@ -593,22 +608,17 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
-			}
-,
-			"meshTestIR.wav" : 			{
-				"kind" : "audiofile",
-				"local" : 1
 			}
 ,
 			"spell25MC.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -618,7 +628,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -628,7 +638,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -638,7 +648,7 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
 				}
 
@@ -648,8 +658,17 @@
 				"kind" : "audiofile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
 					"projectrelativepath" : "./media"
+				}
+
+			}
+,
+			"WgRev2.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop"
 				}
 
 			}
@@ -657,19 +676,14 @@
 		}
 ,
 		"code" : 		{
-			"pfft.gate.gendsp" : 			{
-				"kind" : "gendsp",
+			"showRunner.js" : 			{
+				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"showRunner.js" : 			{
-				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/other",
-					"projectrelativepath" : "./other"
-				}
-
+			"pfft.gate.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
 			}
 
 		}
@@ -717,7 +731,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/externals",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -727,7 +741,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/externals",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -737,7 +751,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/externals",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -747,7 +761,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/externals",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/externals",
 					"projectrelativepath" : "./externals"
 				}
 
@@ -765,7 +779,7 @@
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -775,7 +789,7 @@
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -785,7 +799,7 @@
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -795,7 +809,7 @@
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 
@@ -805,7 +819,7 @@
 				"kind" : "midifile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "D:/Git/Vessles/Vessels-Max/Vessels VR/media/spells",
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media/spells",
 					"projectrelativepath" : "./media/spells"
 				}
 

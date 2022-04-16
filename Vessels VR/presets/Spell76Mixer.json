@@ -5,11 +5,11 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"bubbles" : [ -6.566929133858274 ],
+					"bubbles" : [ 0.0 ],
 					"droplets" : [ 0.0 ],
 					"inkRiver" : [ 0.0 ],
 					"sustain" : [ 0.0 ],
-					"waterMesh" : [ 0.0 ]
+					"waterMesh" : [ -6.0 ]
 				}
 
 			}

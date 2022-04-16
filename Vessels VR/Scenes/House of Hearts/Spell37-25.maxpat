@@ -522,8 +522,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 383.0, 50.0, 37.0 ],
-									"text" : "0.000097"
+									"patching_rect" : [ 110.0, 383.0, 44.0, 37.0 ],
+									"text" : "0.969423"
 								}
 
 							}
@@ -536,7 +536,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 389.0, 50.0, 37.0 ],
-									"text" : "0.000097"
+									"text" : "0.902489"
 								}
 
 							}
@@ -631,7 +631,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 540.0, 284.0, 141.0, 23.0 ],
+									"patching_rect" : [ 532.0, 319.0, 141.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -2429,8 +2429,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "multichannelsignal" ],
-									"patching_rect" : [ 254.0, 340.0, 49.0, 23.0 ],
-									"text" : "mc.*~ 1"
+									"patching_rect" : [ 254.0, 340.0, 59.0, 23.0 ],
+									"text" : "mc.*~ 0.5"
 								}
 
 							}
@@ -7018,6 +7018,33 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontface" : 0,
+									"id" : "obj-5",
+									"maxclass" : "filtergraph~",
+									"nfilters" : 1,
+									"numinlets" : 8,
+									"numoutlets" : 7,
+									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 541.0, 525.0, 256.0, 128.0 ],
+									"setfilter" : [ 0, 5, 1, 0, 0, 6894.69775390625, 0.239694699645042, 0.895920634269714, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 6,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 64.0, 198.0, 71.5, 23.0 ],
+									"text" : "biquad~"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-35",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -7242,8 +7269,15 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -7307,6 +7341,13 @@
 									"destination" : [ "obj-33", 0 ],
 									"order" : 0,
 									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -14532,7 +14573,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
 									"patching_rect" : [ 59.5, 519.0, 90.0, 21.0 ],
-									"text" : "mc.cross~ 4000"
+									"text" : "mc.cross~ 3000"
 								}
 
 							}
@@ -14544,7 +14585,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 212.0, 337.0, 57.0, 21.0 ],
-									"text" : "0."
+									"text" : "0.697647"
 								}
 
 							}
@@ -14555,7 +14596,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 138.0, 600.0, 50.0, 21.0 ],
+									"patching_rect" : [ 255.0, 568.0, 50.0, 21.0 ],
 									"text" : "0 50"
 								}
 
@@ -16083,7 +16124,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 427.0, 313.0, 50.0, 33.0 ],
-													"text" : "0.242067"
+													"text" : "0.01987"
 												}
 
 											}
@@ -16143,7 +16184,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 397.25, 373.0, 50.0, 21.0 ],
-													"text" : "0."
+													"text" : "0.002532"
 												}
 
 											}
@@ -16637,7 +16678,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 459.0, 1014.0, 132.5, 35.0 ],
-													"presentation_linecount" : 3,
 													"text" : "Starting effect channel"
 												}
 
@@ -16664,7 +16704,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 441.5, 979.0, 150.0, 35.0 ],
-													"presentation_linecount" : 2,
 													"text" : "Spatialized grains around a point"
 												}
 
@@ -16678,7 +16717,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 411.5, 1046.0, 180.0, 47.0 ],
-													"presentation_linecount" : 3,
 													"text" : "Generates positions for an effect at its assigned effect channel"
 												}
 
@@ -20374,7 +20412,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 740.0, 80.0, 50.0, 21.0 ],
-									"text" : "0"
+									"text" : "14"
 								}
 
 							}
@@ -21271,7 +21309,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 42.0, 54.0, 63.0, 23.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -21901,7 +21939,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 281.0, 153.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -23316,7 +23354,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 281.0, 153.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -24874,7 +24912,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 281.0, 153.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -24893,7 +24931,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 158.0, 65.0, 65.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -24912,7 +24950,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 42.0, 54.0, 63.0, 23.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -25311,7 +25349,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 281.0, 153.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -25583,7 +25621,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 492.0, 139.0, 104.0, 23.0 ],
-													"restore" : [ 0.5 ],
+													"restore" : [ 0.7 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -25644,7 +25682,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 281.0, 153.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -25663,7 +25701,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 158.0, 65.0, 65.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -25682,7 +25720,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 42.0, 54.0, 63.0, 23.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -26127,7 +26165,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 253.5, 361.0, 74.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 0.5 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -26295,7 +26333,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 197.0, 63.0, 60.0, 23.0 ],
-													"restore" : [ 0.0 ],
+													"restore" : [ 1.0 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -26333,7 +26371,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 50.0, 26.0, 63.0, 23.0 ],
-													"restore" : [ 0 ],
+													"restore" : [ 1 ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
