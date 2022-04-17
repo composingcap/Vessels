@@ -33,6 +33,7 @@ public class memorySpawner : MonoBehaviour
         {
             if (memory.gameObject.activeInHierarchy) continue;
 
+            memory.gameObject.SetActive(true);
 
             memory.fadeIn = true;
             memory.explode = false;
@@ -41,13 +42,12 @@ public class memorySpawner : MonoBehaviour
 
                 randomPosition.x = Random.Range(-1f, 1f);
                 randomPosition.z = Random.Range(-1f, 1f);
-                randomPosition.y = Random.Range(-0.8f, 0.8f);
+                randomPosition.y = Random.Range(-0.5f, 0.5f);
 
            
-            float radius = Random.Range(0.5f, 1.5f);
+            float radius = Random.Range(0.5f, 1.4f);
 
             memory.transform.position = player.transform.position + randomPosition.normalized*radius;
-            memory.gameObject.SetActive(true);
             return;
            
         }

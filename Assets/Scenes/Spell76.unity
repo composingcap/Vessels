@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d638472a260fe4daabc1e62a15e633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomSize: 8
+  roomSize: 16
 --- !u!1 &473616147 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100044, guid: 8aef0fa9681ca07448e18dd542d1a31b, type: 3}

@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -8,41 +7,45 @@ public class MemoryController : MonoBehaviour
     public VisualEffect smoke;
     public VisualEffect explosion;
     public MeshRenderer sphere;
-    Collider col; 
+    private Collider col;
     public bool explode;
-    bool exploded;
+    private bool exploded;
     public float memoryStartTime;
     public float memoryEndTime;
-    float explodeFadeTime = 0.25f;
-    float progress = 0;
+    private float explodeFadeTime = 0.25f;
+    private float progress = 0;
     public bool fadeIn = false;
     public bool fadeOut = false;
-    public float  fadeTime = 3;
-    bool fadedIn;
-    bool fadedOut;
-    float fadeLevel;
-    float lifeTime = 10000;
-    float timeCounter;
+    public float fadeTime = 3;
+    private bool fadedIn;
+    private bool fadedOut;
+    private float fadeLevel;
+    private float lifeTime = 10000;
+    private float timeCounter;
     public float randomWalkDepth = 0.1f;
-    Vector3 anchorPosition;
-    Vector3 lastPosition;
-    TransformSender transformSender;
-    OSC osc;
-    OscMessage message;
-    Vector3 nextPosition = new Vector3();
+    private Vector3 lastPosition;
+    private TransformSender transformSender;
+    private OSC osc;
+    private OscMessage message;
+    private Vector3 nextPosition = new Vector3();
+
     // Start is called before the first frame update
-    void Awake()
+    private void Awake()
     {
         col = GetComponent<Collider>();
         transformSender = GetComponent<TransformSender>();
         osc = GameObject.FindGameObjectWithTag("OSC").GetComponent<OSC>();
         transformSender.sender = osc;
         message = new OscMessage();
-
     }
-     
+
     private void OnEnable()
     {
+        lifeTime = 10000;
+        progress = 0;
+        fadeOut = false;
+        explode = false;
+        fadeLevel = 0;
         message.values.Clear();
         message.address = name + "/state/";
         message.values.Add(1);
@@ -57,8 +60,6 @@ public class MemoryController : MonoBehaviour
         message.address = name + "/endTime/";
         message.values.Add(memoryEndTime);
         osc.Send(message);
-
-        anchorPosition = transform.position;
 
         timeCounter = 0;
         lifeTime = Random.Range(15f, 25f);
@@ -76,11 +77,9 @@ public class MemoryController : MonoBehaviour
         osc.Send(message);
     }
 
-
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
-
         lastPosition = transform.position;
 
         if (Random.Range(0, 100) > 90)
@@ -92,7 +91,7 @@ public class MemoryController : MonoBehaviour
 
         lastPosition = (nextPosition * 0.1f) + (lastPosition * 0.9f);
 
-        transform.position = lastPosition; 
+        transform.position = lastPosition;
 
         timeCounter += Time.deltaTime;
         if (timeCounter > lifeTime)
@@ -111,10 +110,9 @@ public class MemoryController : MonoBehaviour
                 fadedOut = false;
                 StartCoroutine(endMemory());
                 message.values.Clear();
-                message.address = "/"+name + "/explode/";
+                message.address = "/" + name + "/explode/";
                 message.values.Add(1);
                 osc.Send(message);
-
             }
             if (progress < 1)
             {
@@ -122,9 +120,7 @@ public class MemoryController : MonoBehaviour
 
                 progress = Mathf.Clamp01(progress);
                 sphere.material.SetFloat("_Fade", 1 - progress);
-    
             }
-            
         }
         else
         {
@@ -141,7 +137,6 @@ public class MemoryController : MonoBehaviour
                 fadedOut = false;
                 progress = 0;
                 fadedIn = true;
-
             }
             if (progress < 1)
             {
@@ -173,8 +168,8 @@ public class MemoryController : MonoBehaviour
             if (progress < 1)
             {
                 progress += Time.deltaTime / fadeTime;
-                sphere.material.SetFloat("_Fade", (1-progress)* fadeLevel);
-                smoke.SetFloat("Fade", (1-progress)* fadeLevel);
+                sphere.material.SetFloat("_Fade", (1 - progress) * fadeLevel);
+                smoke.SetFloat("Fade", (1 - progress) * fadeLevel);
                 message.values.Clear();
                 message.address = name + "/fadeLevel/";
                 message.values.Add((1 - progress) * fadeLevel);
@@ -186,10 +181,9 @@ public class MemoryController : MonoBehaviour
                 fadedOut = false;
                 gameObject.SetActive(false);
             }
-
-
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (fadeLevel > 0)
@@ -199,9 +193,9 @@ public class MemoryController : MonoBehaviour
                 //If it is a VR controller explode
                 explode = true;
             }
-            else if( other.tag == "Memory" && fadeLevel > 0.5f)
+            else if (other.tag == "Memory" && fadeLevel > 0.5f)
             {
-                if(other.GetComponent<MemoryController>().fadeLevel > 0.5)
+                if (other.GetComponent<MemoryController>().fadeLevel > 0.5)
                 {
                     //If it is another glass ball that is visible, explode.
                     explode = true;
@@ -210,19 +204,18 @@ public class MemoryController : MonoBehaviour
         }
     }
 
-    IEnumerator destroyMemory()
+    private IEnumerator destroyMemory()
     {
         yield return new WaitForSeconds(5.5f);
         Destroy(gameObject);
     }
-    IEnumerator endMemory()
+
+    private IEnumerator endMemory()
     {
         yield return new WaitForSeconds(5.5f);
         explode = false;
         smoke.SetFloat("Fade", 0);
         sphere.material.SetFloat("_Fade", 0);
         gameObject.SetActive(false);
-        
     }
-
 }

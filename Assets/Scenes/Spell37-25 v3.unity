@@ -2081,7 +2081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08d638472a260fe4daabc1e62a15e633, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomSize: 10
+  roomSize: 20
 --- !u!1 &493951882
 GameObject:
   m_ObjectHideFlags: 0
