@@ -2,7 +2,7 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3732930340,
+	"modificationdate" : 3733071732,
 	"viewrect" : [ 710.0, 573.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -73,6 +73,16 @@
 			"v.grainspreader.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"v.positionSmooth.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"spell26.maxpat" : 			{
@@ -506,7 +516,12 @@
 ,
 			"meshIRHuge.wav" : 			{
 				"kind" : "audiofile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/media",
+					"projectrelativepath" : "./media"
+				}
+
 			}
 ,
 			"MutoscopeStart2.wav" : 			{
