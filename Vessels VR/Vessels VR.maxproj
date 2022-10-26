@@ -2,8 +2,8 @@
 	"name" : "Vessels VR",
 	"version" : 1,
 	"creationdate" : 3708490095,
-	"modificationdate" : 3733071732,
-	"viewrect" : [ 710.0, 573.0, 294.0, 439.0 ],
+	"modificationdate" : 3749639765,
+	"viewrect" : [ 1971.0, 621.0, 294.0, 439.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -87,7 +87,12 @@
 ,
 			"spell26.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "D:/Git/Vessels-Audio/Vessels VR/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"v.poly.modal.maxpat" : 			{
@@ -742,6 +747,36 @@
 		}
 ,
 		"externals" : 		{
+			"fluid.chroma~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.hpss~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.bufampslice~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.hpss~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.pitch~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.spectralshape~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
 			"fluid.pitch~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1,

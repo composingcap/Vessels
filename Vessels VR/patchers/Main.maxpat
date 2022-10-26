@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 237.0, 146.0, 523.0, 328.0 ],
+		"rect" : [ 384.0, 204.0, 523.0, 328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -225,8 +225,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -326,13 +326,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -346,13 +346,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -374,13 +374,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -767,8 +767,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1855,8 +1853,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2026,13 +2024,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2054,13 +2052,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2103,8 +2101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2443,13 +2441,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -2463,13 +2461,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2491,13 +2489,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2556,8 +2554,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2766,6 +2764,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
 									"patching_rect" : [ 293.5, 656.0, 305.0, 23.0 ]
 								}
 
@@ -3083,8 +3082,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3299,13 +3298,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3327,13 +3326,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3704,13 +3703,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3732,13 +3731,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3784,8 +3783,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4526,13 +4525,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4554,13 +4553,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4704,8 +4703,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5326,13 +5325,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5354,13 +5353,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5944,8 +5943,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5990,8 +5989,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6206,13 +6205,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -6234,13 +6233,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -6348,8 +6347,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6564,13 +6563,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -6592,13 +6591,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -6744,13 +6743,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -6772,13 +6771,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -7017,8 +7016,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7176,8 +7175,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7675,13 +7674,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -7703,13 +7702,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -8360,8 +8359,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8589,13 +8588,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -8617,13 +8616,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -8667,8 +8666,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8814,13 +8813,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -8842,13 +8841,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -8915,8 +8914,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9011,8 +9010,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9205,8 +9204,8 @@
 																	"id" : "obj-8",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "int", "bang" ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "int", "bang", "" ],
 																	"patching_rect" : [ 532.0, 193.3267822265625, 107.0, 23.0 ],
 																	"text" : "seq spell14MIDI_2"
 																}
@@ -9395,8 +9394,8 @@
 																	"id" : "obj-57",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "int", "bang" ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "int", "bang", "" ],
 																	"patching_rect" : [ 357.0, 202.3267822265625, 107.0, 23.0 ],
 																	"text" : "seq spell14MIDI_1"
 																}
@@ -9768,13 +9767,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -9788,13 +9787,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -9816,13 +9815,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -9867,8 +9866,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10085,8 +10084,8 @@
 																	"id" : "obj-57",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "int", "bang" ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "int", "bang", "" ],
 																	"patching_rect" : [ 353.0, 200.3267822265625, 95.0, 23.0 ],
 																	"text" : "seq spell25MIDI"
 																}
@@ -10274,13 +10273,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -10302,13 +10301,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -10353,8 +10352,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10534,13 +10533,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -10562,13 +10561,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -10613,8 +10612,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10809,8 +10808,8 @@
 																	"id" : "obj-57",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "int", "bang" ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "int", "bang", "" ],
 																	"patching_rect" : [ 353.0, 200.3267822265625, 95.0, 23.0 ],
 																	"text" : "seq spell37MIDI"
 																}
@@ -10985,13 +10984,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11013,13 +11012,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11064,8 +11063,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11228,8 +11227,8 @@
 																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 2,
-																	"outlettype" : [ "int", "bang" ],
+																	"numoutlets" : 3,
+																	"outlettype" : [ "int", "bang", "" ],
 																	"patching_rect" : [ 353.0, 200.3267822265625, 90.0, 37.0 ],
 																	"text" : "seq spell76MIDI"
 																}
@@ -11382,13 +11381,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11410,13 +11409,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11473,8 +11472,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11742,13 +11741,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11770,13 +11769,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11963,13 +11962,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -11991,13 +11990,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12053,8 +12052,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12099,8 +12098,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12158,8 +12157,8 @@
 																		"fileversion" : 1,
 																		"appversion" : 																		{
 																			"major" : 8,
-																			"minor" : 2,
-																			"revision" : 2,
+																			"minor" : 3,
+																			"revision" : 1,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -12313,13 +12312,13 @@
 																					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "color",
+																						"angle" : 270.0,
+																						"autogradient" : 0.0,
 																						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0.0
+																						"type" : "color"
 																					}
 ,
 																					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12341,13 +12340,13 @@
 																					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																					"bgfillcolor" : 																					{
-																						"type" : "color",
+																						"angle" : 270.0,
+																						"autogradient" : 0.0,
 																						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																						"angle" : 270.0,
 																						"proportion" : 0.39,
-																						"autogradient" : 0.0
+																						"type" : "color"
 																					}
 ,
 																					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12494,13 +12493,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12522,13 +12521,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12572,8 +12571,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12904,13 +12903,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -12932,13 +12931,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -13029,8 +13028,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13270,13 +13269,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -13298,13 +13297,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -13348,8 +13347,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13835,13 +13834,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -13863,13 +13862,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -14179,13 +14178,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -14207,13 +14206,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -14303,8 +14302,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14542,13 +14541,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -14570,13 +14569,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -14763,8 +14762,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15080,13 +15079,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -15108,13 +15107,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -15158,8 +15157,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15548,13 +15547,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -15576,13 +15575,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -15937,8 +15936,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 3,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16056,8 +16055,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16180,7 +16179,7 @@
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
-																	"outlettype" : [ "multichannelsignal", "list" ],
+																	"outlettype" : [ "multichannelsignal", "" ],
 																	"patching_rect" : [ 50.0, 197.0, 99.0, 23.0 ],
 																	"text" : "mcs.matrix~ 64 2"
 																}
@@ -16309,13 +16308,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -16337,13 +16336,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -16435,8 +16434,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16625,13 +16624,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -16645,13 +16644,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -16673,13 +16672,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -16723,8 +16722,8 @@
 														"fileversion" : 1,
 														"appversion" : 														{
 															"major" : 8,
-															"minor" : 2,
-															"revision" : 2,
+															"minor" : 3,
+															"revision" : 1,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16883,8 +16882,8 @@
 																	"id" : "obj-62",
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "int" ],
+																	"numoutlets" : 2,
+																	"outlettype" : [ "int", "signal" ],
 																	"patching_rect" : [ 219.0, 100.0, 105.0, 23.0 ],
 																	"text" : "mc.channelcount~"
 																}
@@ -17067,13 +17066,13 @@
 																"name" : "AudioStatus_Menu",
 																"default" : 																{
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0,
 																		"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 																		"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0
+																		"type" : "color"
 																	}
 
 																}
@@ -17087,13 +17086,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -17115,13 +17114,13 @@
 																	"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 																	"bgfillcolor" : 																	{
-																		"type" : "color",
+																		"angle" : 270.0,
+																		"autogradient" : 0.0,
 																		"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 																		"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-																		"angle" : 270.0,
 																		"proportion" : 0.39,
-																		"autogradient" : 0.0
+																		"type" : "color"
 																	}
 ,
 																	"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -17334,13 +17333,13 @@
 												"name" : "AudioStatus_Menu",
 												"default" : 												{
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0,
 														"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 														"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0
+														"type" : "color"
 													}
 
 												}
@@ -17354,13 +17353,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -17382,13 +17381,13 @@
 													"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"bgfillcolor" : 													{
-														"type" : "color",
+														"angle" : 270.0,
+														"autogradient" : 0.0,
 														"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 														"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-														"angle" : 270.0,
 														"proportion" : 0.39,
-														"autogradient" : 0.0
+														"type" : "color"
 													}
 ,
 													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -17688,7 +17687,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 171.5, 144.999999999999773, 101.333333333333371, 152.000000000000057 ],
 									"save_points" : 1,
-									"saved_points" : [ "5", 5, 0.342849969863891, -0.0, 0.08050000667572, 90.0, 13.213506549926491, 0.352173753863717, 0, 0.0, 0.0, 0.0, 0, 0, "7", 7, -0.017150002717972, -0.354999995231628, 0.070000004768371, -177.234198797102124, 11.141992051880067, 0.362241797526534, 0, 0.0, 0.0, 0.0, 0, 0, "1", 1, 0.005500000715256, -0.31650002002716, 0.116500008106232, 179.004438883232098, 20.205275596231075, 0.337305150529624, 0, 0.0, 0.0, 0.0, 0, 0, "4", 4, 0.004694359148933, 0.099285398210798, 0.148607219968524, 2.707012425507528, 56.223314982957781, 0.178784040485914, 0, 0.0, 0.0, 0.0, 0, 0, "2", 2, -0.332649993896486, 0.085999995470047, 0.107000005245209, -75.504704924354115, 17.297655317187939, 0.359862499828274, 0, 0.0, 0.0, 0.0, 0, 0, "6", 6, 0.510128164291381, -0.567500019073485, 0.121113276481628, 138.04749333656369, 9.018581999938531, 0.772628915710392, 0, 0.0, 0.0, 0.0, 0, 0, "3", 3, 0.027110459018497, -0.266973173468741, 0.108288952836953, 174.201632888693013, 21.976147738332678, 0.289371991814494, 0, 0.0, 0.0, 0.0, 0, 0 ]
+									"saved_points" : [ "5", 5, 0.342849969863891, -0.0, 0.08050000667572, 90.0, 13.213506549926437, 0.352173753863717, 0, 0.0, 0.0, 0.0, 0, 0, "7", 7, -0.017150002717972, -0.354999995231628, 0.070000004768371, -177.234198797102096, 11.141992051880001, 0.362241797526534, 0, 0.0, 0.0, 0.0, 0, 0, "1", 1, 0.005500000715256, -0.31650002002716, 0.116500008106232, 179.004438883232012, 20.2052755962311, 0.337305150529624, 0, 0.0, 0.0, 0.0, 0, 0, "4", 4, 0.004694359148933, 0.099285398210798, 0.148607219968524, 2.707012425507359, 56.223314982957802, 0.178784040485915, 0, 0.0, 0.0, 0.0, 0, 0, "2", 2, -0.332649993896486, 0.085999995470047, 0.107000005245209, -75.504704924354073, 17.297655317187917, 0.359862499828275, 0, 0.0, 0.0, 0.0, 0, 0, "6", 6, 0.510128164291381, -0.567500019073485, 0.121113276481628, 138.04749333656369, 9.018581999938505, 0.772628915710391, 0, 0.0, 0.0, 0.0, 0, 0, "3", 3, 0.027110459018497, -0.266973173468741, 0.108288952836953, 174.201632888693013, 21.976147738332639, 0.289371991814495, 0, 0.0, 0.0, 0.0, 0, 0 ]
 								}
 
 							}
@@ -18639,13 +18638,13 @@
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0,
 										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0
+										"type" : "color"
 									}
 
 								}
@@ -18659,13 +18658,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -18687,13 +18686,13 @@
 									"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 									"bgfillcolor" : 									{
-										"type" : "color",
+										"angle" : 270.0,
+										"autogradient" : 0.0,
 										"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-										"angle" : 270.0,
 										"proportion" : 0.39,
-										"autogradient" : 0.0
+										"type" : "color"
 									}
 ,
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -20596,13 +20595,13 @@
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0,
 						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
 						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0
+						"type" : "color"
 					}
 
 				}
@@ -20616,13 +20615,13 @@
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0.0,
 						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0.0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -20643,13 +20642,13 @@
 					"accentcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 					"bgfillcolor" : 					{
-						"type" : "color",
+						"angle" : 270.0,
+						"autogradient" : 0.0,
 						"color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color1" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-						"angle" : 270.0,
 						"proportion" : 0.39,
-						"autogradient" : 0.0
+						"type" : "color"
 					}
 ,
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
